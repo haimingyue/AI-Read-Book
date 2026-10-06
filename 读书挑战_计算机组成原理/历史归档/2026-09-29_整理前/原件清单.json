@@ -1,0 +1,114 @@
+[
+  {
+    "path": "进度日志.md",
+    "sha256": "819459ebc098538b5aa24af9cbf7c164ca90d9dd61dd9751f88641ca4f1e8238"
+  },
+  {
+    "path": "待阅读网站.md",
+    "sha256": "54898688bc1a4a87846f98f1a2f8634d00fdca3cb7a5ad281315d5cbfe8767b4"
+  },
+  {
+    "path": "00_30天计划.md",
+    "sha256": "4fb0eeb3deca56de9c9a4722faa6f1e4782c2f89357b61c16fa078b52de414ab"
+  },
+  {
+    "path": "02_考频分析与优先级.md",
+    "sha256": "4556166342b7877d67ea880b7e86fa478d536af3e03232e62354e98e405270c5"
+  },
+  {
+    "path": "状态与下一步.md",
+    "sha256": "d66bd9e5799cbce3561f903de9c40a47dd67c853ed3d82d486ee2546f509ace9"
+  },
+  {
+    "path": "开始新的一天.md",
+    "sha256": "7493f0ded4c17a9ef23ecf5accefa4761757c8657d4deef8c761985a8d46838e"
+  },
+  {
+    "path": "PROJECT_真题驱动版_计组70分30天.md",
+    "sha256": "4576950f40affcaa553f58866862236873924f07f432d0937ff23bf5ff7e17f7"
+  },
+  {
+    "path": "03_笔记与Anki使用规则.md",
+    "sha256": "1ab23eabb20543f145e10539d3fcc22bd59eb5ef1f19a7cf8c2669dea6e43e61"
+  },
+  {
+    "path": "PROJECT_超速学习项目_计组70分30天.md",
+    "sha256": "46ddf3c4e17d3e9bc46c1a7fbb664623acb10a366b31500a221eab08a558f721"
+  },
+  {
+    "path": "PROJECT_精简版_计组70分_少而精.md",
+    "sha256": "527d2f75ef0726b423f62becde2286084b1aff0f261006d887da2039c7943381"
+  },
+  {
+    "path": "README.md",
+    "sha256": "4d6ec018884f6eaf3b1216ad9127b2007f326e194897e39ef8b978a213357710"
+  },
+  {
+    "path": "拓展阅读_CF与OF英文资料.md",
+    "sha256": "39aa16d7d8aeddc27e6b848f8be332c3e6d063928feb4b0c09ac03e6800a0c8a"
+  },
+  {
+    "path": "不懂知识点与错题本.md",
+    "sha256": "98a0de66f323aa403e6f51979fbe84b8b202a255415e23eaa8ee7eb789db697c"
+  },
+  {
+    "path": "冲刺排程_10月20日硬截止.md",
+    "sha256": "65d75a402bd3ebb714f2b103b9c1f8fee4a91658d92a5c131c0f04174787d66f"
+  },
+  {
+    "path": "Anki/计组_闪卡_第十二次_Cache命中条件_待导入.csv",
+    "sha256": "c988884bfee8c2b60ee28a18964334c8ca83dde62bcda3f2632d17bb2b7681c6"
+  },
+  {
+    "path": "Anki/计组_闪卡_性能指标_imported.csv",
+    "sha256": "3aa9e6735454fa7fcaa2479954b48552186b21101ff0f3babef1f433128a7f7c"
+  },
+  {
+    "path": "Anki/计组_闪卡_第九天_浮点真题与尺子操作_imported.csv",
+    "sha256": "9820d6b2c83fc4794773f2fbd907177bc629a5440e163441357dd399929ddba7"
+  },
+  {
+    "path": "Anki/计组_闪卡_第1章_imported.csv",
+    "sha256": "15904fd6c82df86873fc333bc7a369507b85afb6b38d88982a07ac997d392909"
+  },
+  {
+    "path": "Anki/README_导入说明.md",
+    "sha256": "83755f032b3578d7862378f25d3f779544c53a362dcbcf2753ced82c54195e91"
+  },
+  {
+    "path": "Anki/计组_闪卡_第十天_定点乘法_imported.csv",
+    "sha256": "ffe4e31e72edb1d230ea88209960335100cfb795bdb8e770652c58de38b036ea"
+  },
+  {
+    "path": "Anki/计组_闪卡_2.1补码_imported.csv",
+    "sha256": "aed64c912e09fb2da1f6fccfb06651866c78e7ce74f7091ef82248bad85afb14"
+  },
+  {
+    "path": "Anki/计组_闪卡_第三天_2.2定点运算_imported.csv",
+    "sha256": "de993d34d264882d283837e3f2e63b14712c83e670428c7e4f20bd0ac4b02468"
+  },
+  {
+    "path": "Anki/计组_闪卡_第十一次_Q37事实卡_待导入.csv",
+    "sha256": "657534cb843807f839c035d6a9fa74396b1de895e80494af308d20ec7dc6ac98"
+  },
+  {
+    "path": "Anki/计组_闪卡_第八天_Q36与CF异号陷阱_imported.csv",
+    "sha256": "5b64b629304df4e385bd36c20a02d8ae0833321bc0d9535a3e5a79caeb8fc98c"
+  },
+  {
+    "path": "Anki/计组_闪卡_第七天_2.3浮点IEEE754地基_imported.csv",
+    "sha256": "e9261a8b1ec9355a47634a52420fa3e21e9439e7a7e00bee2fa0980612042a2f"
+  },
+  {
+    "path": "Anki/计组_闪卡_第四天_2.2收尾_十六进制与CFOF_imported.csv",
+    "sha256": "35042c69488f4bab7f24718800940861097bdbe33c722a584880270585e3c2f0"
+  },
+  {
+    "path": "Anki/计组_闪卡_第五天_2.2收官_CFOF判法应用_imported.csv",
+    "sha256": "b798f690b39d836b4c64a4a5a971407e081ddcf564b1d7fbf3c7239afffecd4d"
+  },
+  {
+    "path": "伴读笔记/第1章_计算机系统概述.md",
+    "sha256": "fddcc16fd2f919db00f749581b0037d84989029df28b162a571d110802a6b28f"
+  }
+]

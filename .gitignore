@@ -1,0 +1,10 @@
+# macOS与本地运行依赖
+.DS_Store
+.pylib/
+__pycache__/
+*.py[cod]
+.venv/
+
+# 本地凭据配置
+.env
+.env.*
