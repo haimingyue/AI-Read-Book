@@ -1,0 +1,5572 @@
+{
+  "source_pdf": "books/2026计算机网络_带书签.pdf",
+  "source_pdf_sha256": "e64e3d7f1ae093ee1e90b114113cdb6539ba7c0782d4b099a1046245f80bec8b",
+  "source_pdf_pages": 312,
+  "date": "2026-10-07",
+  "render_method": "Poppler pdftoppm 144 dpi PNG; unmodified full-page pixels",
+  "ocr_method": "macOS Vision original + contrast-only locating pass over 106 exercise-zone pages; OCR is not transcribed question text",
+  "question_count": 144,
+  "question_kind_counts": {
+    "选择": 128,
+    "综合": 16
+  },
+  "number_kind": "教材习题编号；未对照官方原卷",
+  "metadata_verification": "144条年份、题号逐条目视核对；修正20处OCR题号，题型按教材题区",
+  "coverage_limit": "本书已识别并核对的收录条目；不宣称历年官方试卷完整覆盖。解析按整节保存，尚未逐题验算。",
+  "source_navigation_correction": "第2章书签误写数据链路层，正文PDF42为物理层；以正文为准，未改源PDF。",
+  "sections": [
+    {
+      "key": "1.1",
+      "name": "计算机网络概述",
+      "start": 13,
+      "topics": [
+        {
+          "title": "1.1.1 计算机网络的概念",
+          "page": 13
+        },
+        {
+          "title": "1.1.2 计算机网络的组成",
+          "page": 13
+        },
+        {
+          "title": "1.1.3 计算机网络的功能",
+          "page": 14
+        },
+        {
+          "title": "1.1.4 电路交换、报文交换与分组交换",
+          "page": 15
+        },
+        {
+          "title": "1.1.5 计算机网络的分类",
+          "page": 17
+        },
+        {
+          "title": "1.1.6 计算机网络的性能指标",
+          "page": 18
+        },
+        {
+          "title": "1.1.7 本节习题精选",
+          "page": 19
+        },
+        {
+          "title": "1.1.8 答案与解析",
+          "page": 22
+        }
+      ],
+      "q_start": 19,
+      "a_start": 22,
+      "end": 26,
+      "question_count": 4
+    },
+    {
+      "key": "1.2",
+      "name": "计算机网络体系结构与参考模型",
+      "start": 26,
+      "topics": [
+        {
+          "title": "1.2.1 计算机网络分层结构",
+          "page": 26
+        },
+        {
+          "title": "1.2.2 计算机网络协议、接口、服务的概念",
+          "page": 27
+        },
+        {
+          "title": "1.2.3 ISO/OSI参考模型和TCP/IP模型",
+          "page": 28
+        },
+        {
+          "title": "1.2.4 本节习题精选",
+          "page": 33
+        },
+        {
+          "title": "1.2.5 答案与解析",
+          "page": 37
+        }
+      ],
+      "q_start": 33,
+      "a_start": 37,
+      "end": 40,
+      "question_count": 10
+    },
+    {
+      "key": "2.1",
+      "name": "通信基础",
+      "start": 42,
+      "topics": [
+        {
+          "title": "2.1.1 基本概念",
+          "page": 42
+        },
+        {
+          "title": "2.1.2 信道的极限容量",
+          "page": 43
+        },
+        {
+          "title": "2.1.3 编码与调制",
+          "page": 45
+        },
+        {
+          "title": "2.1.4 本节习题精选",
+          "page": 47
+        },
+        {
+          "title": "2.1.5 答案与解析",
+          "page": 50
+        }
+      ],
+      "q_start": 47,
+      "a_start": 50,
+      "end": 53,
+      "question_count": 11
+    },
+    {
+      "key": "2.2",
+      "name": "传输介质",
+      "start": 53,
+      "topics": [
+        {
+          "title": "2.2.1 双绞线、同轴电缆、光纤与无线传输介质",
+          "page": 53
+        },
+        {
+          "title": "2.2.2 物理层接口的特性",
+          "page": 56
+        },
+        {
+          "title": "2.2.3 本节习题精选",
+          "page": 56
+        },
+        {
+          "title": "2.2.4 答案与解析",
+          "page": 57
+        }
+      ],
+      "q_start": 56,
+      "a_start": 57,
+      "end": 58,
+      "question_count": 2
+    },
+    {
+      "key": "2.3",
+      "name": "物理层设备",
+      "start": 58,
+      "topics": [
+        {
+          "title": "2.3.1 中继器",
+          "page": 58
+        },
+        {
+          "title": "2.3.2 集线器",
+          "page": 58
+        },
+        {
+          "title": "2.3.3 本节习题精选",
+          "page": 59
+        },
+        {
+          "title": "2.3.4 答案与解析",
+          "page": 60
+        }
+      ],
+      "q_start": 59,
+      "a_start": 60,
+      "end": 61,
+      "question_count": 0
+    },
+    {
+      "key": "3.1",
+      "name": "数据链路层的功能",
+      "start": 63,
+      "topics": [
+        {
+          "title": "3.1.1 数据链路层所处的地位",
+          "page": 64
+        },
+        {
+          "title": "3.1.2 链路管理",
+          "page": 65
+        },
+        {
+          "title": "3.1.3 封装成帧与透明传输",
+          "page": 65
+        },
+        {
+          "title": "3.1.4 流量控制",
+          "page": 65
+        },
+        {
+          "title": "3.1.5 差错检测",
+          "page": 65
+        },
+        {
+          "title": "3.1.6 本节习题精选",
+          "page": 66
+        },
+        {
+          "title": "3.1.7 答案与解析",
+          "page": 66
+        }
+      ],
+      "q_start": 66,
+      "a_start": 66,
+      "end": 67,
+      "question_count": 0
+    },
+    {
+      "key": "3.2",
+      "name": "组帧",
+      "start": 67,
+      "topics": [
+        {
+          "title": "3.2.1 字符计数法",
+          "page": 67
+        },
+        {
+          "title": "3.2.2 字节填充法",
+          "page": 67
+        },
+        {
+          "title": "3.2.3 零比特填充法",
+          "page": 68
+        },
+        {
+          "title": "3.2.4 违规编码法",
+          "page": 68
+        },
+        {
+          "title": "3.2.5 本节习题精选",
+          "page": 68
+        },
+        {
+          "title": "3.2.6 答案与解析",
+          "page": 69
+        }
+      ],
+      "q_start": 68,
+      "a_start": 69,
+      "end": 69,
+      "question_count": 1
+    },
+    {
+      "key": "3.3",
+      "name": "差错控制",
+      "start": 69,
+      "topics": [
+        {
+          "title": "3.3.1 检错编码",
+          "page": 70
+        },
+        {
+          "title": "3.3.2 纠错编码",
+          "page": 71
+        },
+        {
+          "title": "3.3.3 本节习题精选",
+          "page": 72
+        },
+        {
+          "title": "3.3.4 答案与解析",
+          "page": 73
+        }
+      ],
+      "q_start": 72,
+      "a_start": 73,
+      "end": 74,
+      "question_count": 1
+    },
+    {
+      "key": "3.4",
+      "name": "流量控制与可靠传输机制",
+      "start": 74,
+      "topics": [
+        {
+          "title": "3.4.1 流量控制与滑动窗口机制",
+          "page": 74
+        },
+        {
+          "title": "3.4.2 可靠传输机制",
+          "page": 76
+        },
+        {
+          "title": "3.4.3 本节习题精选",
+          "page": 80
+        },
+        {
+          "title": "3.4.4 答案与解析",
+          "page": 84
+        }
+      ],
+      "q_start": 80,
+      "a_start": 84,
+      "end": 90,
+      "question_count": 11
+    },
+    {
+      "key": "3.5",
+      "name": "介质访问控制",
+      "start": 90,
+      "topics": [
+        {
+          "title": "3.5.1 信道划分介质访问控制",
+          "page": 90
+        },
+        {
+          "title": "3.5.2 随机访问介质访问控制",
+          "page": 93
+        },
+        {
+          "title": "3.5.3 轮询访问：令牌传递协议",
+          "page": 99
+        },
+        {
+          "title": "3.5.4 本节习题精选",
+          "page": 100
+        },
+        {
+          "title": "3.5.5 答案与解析",
+          "page": 105
+        }
+      ],
+      "q_start": 100,
+      "a_start": 105,
+      "end": 111,
+      "question_count": 12
+    },
+    {
+      "key": "3.6",
+      "name": "局域网",
+      "start": 111,
+      "topics": [
+        {
+          "title": "3.6.1 局域网的基本概念和体系结构",
+          "page": 111
+        },
+        {
+          "title": "3.6.2 以太网与 IEEE 802.3",
+          "page": 112
+        },
+        {
+          "title": "3.6.3 IEEE 802.11 无线局域网",
+          "page": 115
+        },
+        {
+          "title": "3.6.4 VLAN 基本概念与基本原理",
+          "page": 118
+        },
+        {
+          "title": "3.6.5 本节习题精选",
+          "page": 120
+        },
+        {
+          "title": "3.6.6 答案与解析",
+          "page": 122
+        }
+      ],
+      "q_start": 120,
+      "a_start": 122,
+      "end": 125,
+      "question_count": 3
+    },
+    {
+      "key": "3.7",
+      "name": "广域网",
+      "start": 125,
+      "topics": [
+        {
+          "title": "3.7.1 广域网的基本概念",
+          "page": 125
+        },
+        {
+          "title": "3.7.2 点对点协议",
+          "page": 126
+        },
+        {
+          "title": "3.7.3 本节习题精选",
+          "page": 127
+        },
+        {
+          "title": "3.7.4 答案与解析",
+          "page": 128
+        }
+      ],
+      "q_start": 127,
+      "a_start": 128,
+      "end": 129,
+      "question_count": 0
+    },
+    {
+      "key": "3.8",
+      "name": "数据链路层设备",
+      "start": 129,
+      "topics": [
+        {
+          "title": "*3.8.1 网桥的基本概念",
+          "page": 129
+        },
+        {
+          "title": "3.8.2 以太网交换机",
+          "page": 130
+        },
+        {
+          "title": "3.8.3 本节习题精选",
+          "page": 132
+        },
+        {
+          "title": "3.8.4 答案与解析",
+          "page": 134
+        }
+      ],
+      "q_start": 132,
+      "a_start": 134,
+      "end": 136,
+      "question_count": 5
+    },
+    {
+      "key": "4.1",
+      "name": "网络层的功能",
+      "start": 138,
+      "topics": [
+        {
+          "title": "4.1.1 异构网络互连",
+          "page": 139
+        },
+        {
+          "title": "4.1.2 路由与转发",
+          "page": 139
+        },
+        {
+          "title": "4.1.3 网络层提供的两种服务",
+          "page": 140
+        },
+        {
+          "title": "4.1.4 SDN 的基本概念",
+          "page": 142
+        },
+        {
+          "title": "4.1.5 拥塞控制",
+          "page": 143
+        },
+        {
+          "title": "4.1.6 本节习题精选",
+          "page": 144
+        },
+        {
+          "title": "4.1.7 答案与解析",
+          "page": 146
+        }
+      ],
+      "q_start": 144,
+      "a_start": 146,
+      "end": 148,
+      "question_count": 3
+    },
+    {
+      "key": "4.2",
+      "name": "IPv4",
+      "start": 148,
+      "topics": [
+        {
+          "title": "4.2.1 IPv4 分组",
+          "page": 148
+        },
+        {
+          "title": "4.2.2 IPv4 地址与 NAT",
+          "page": 151
+        },
+        {
+          "title": "4.2.3 划分子网与路由聚合",
+          "page": 153
+        },
+        {
+          "title": "4.2.4 网络层转发分组的过程",
+          "page": 157
+        },
+        {
+          "title": "4.2.5 地址解析协议",
+          "page": 158
+        },
+        {
+          "title": "4.2.6 动态主机配置协议 DHCP",
+          "page": 160
+        },
+        {
+          "title": "4.2.7 网际控制报文协议 ICMP",
+          "page": 161
+        },
+        {
+          "title": "4.2.8 本节习题精选",
+          "page": 162
+        },
+        {
+          "title": "4.2.9 答案与解析",
+          "page": 175
+        }
+      ],
+      "q_start": 162,
+      "a_start": 175,
+      "end": 190,
+      "question_count": 27
+    },
+    {
+      "key": "4.3",
+      "name": "IPv6",
+      "start": 190,
+      "topics": [
+        {
+          "title": "4.3.1 IPv6 的特点",
+          "page": 190
+        },
+        {
+          "title": "4.3.2 IPv6 数据报的基本首部",
+          "page": 191
+        },
+        {
+          "title": "4.3.3 IPv6 地址",
+          "page": 192
+        },
+        {
+          "title": "4.3.4 从 IPv4 向 IPv6 过渡",
+          "page": 193
+        },
+        {
+          "title": "4.3.5 本节习题精选",
+          "page": 193
+        },
+        {
+          "title": "4.3.6 答案与解析",
+          "page": 194
+        }
+      ],
+      "q_start": 193,
+      "a_start": 194,
+      "end": 195,
+      "question_count": 1
+    },
+    {
+      "key": "4.4",
+      "name": "路由算法与路由协议",
+      "start": 195,
+      "topics": [
+        {
+          "title": "4.4.1 路由算法",
+          "page": 195
+        },
+        {
+          "title": "4.4.2 分层次的路由选择协议",
+          "page": 197
+        },
+        {
+          "title": "4.4.3 路由信息协议",
+          "page": 198
+        },
+        {
+          "title": "4.4.4 开放最短路径优先协议",
+          "page": 200
+        },
+        {
+          "title": "4.4.5 边界网关协议",
+          "page": 202
+        },
+        {
+          "title": "4.4.6 本节习题精选",
+          "page": 205
+        },
+        {
+          "title": "4.4.7 答案与解析",
+          "page": 211
+        }
+      ],
+      "q_start": 205,
+      "a_start": 211,
+      "end": 217,
+      "question_count": 7
+    },
+    {
+      "key": "4.5",
+      "name": "IP 多播",
+      "start": 217,
+      "topics": [
+        {
+          "title": "4.5.1 多播的概念",
+          "page": 217
+        },
+        {
+          "title": "4.5.2 IP 多播地址",
+          "page": 218
+        },
+        {
+          "title": "4.5.3 在局域网上进行硬件多播",
+          "page": 218
+        },
+        {
+          "title": "4.5.4 IGMP 与多播路由协议",
+          "page": 219
+        },
+        {
+          "title": "4.5.5 本节习题精选",
+          "page": 219
+        },
+        {
+          "title": "4.5.6 答案与解析",
+          "page": 220
+        }
+      ],
+      "q_start": 219,
+      "a_start": 220,
+      "end": 220,
+      "question_count": 0
+    },
+    {
+      "key": "4.6",
+      "name": "移动 IP",
+      "start": 220,
+      "topics": [
+        {
+          "title": "4.6.1 移动 IP 的概念",
+          "page": 220
+        },
+        {
+          "title": "4.6.2 移动 IP 通信过程",
+          "page": 221
+        },
+        {
+          "title": "4.6.3 本节习题精选",
+          "page": 222
+        },
+        {
+          "title": "4.6.4 答案与解析",
+          "page": 222
+        }
+      ],
+      "q_start": 222,
+      "a_start": 222,
+      "end": 223,
+      "question_count": 0
+    },
+    {
+      "key": "4.7",
+      "name": "网络层设备",
+      "start": 223,
+      "topics": [
+        {
+          "title": "4.7.1 冲突域和广播域",
+          "page": 223
+        },
+        {
+          "title": "4.7.2 路由器的组成和功能",
+          "page": 223
+        },
+        {
+          "title": "4.7.3 路由表与分组转发",
+          "page": 224
+        },
+        {
+          "title": "4.7.4 本节习题精选",
+          "page": 225
+        },
+        {
+          "title": "4.7.5 答案与解析",
+          "page": 228
+        }
+      ],
+      "q_start": 225,
+      "a_start": 228,
+      "end": 232,
+      "question_count": 4
+    },
+    {
+      "key": "5.1",
+      "name": "传输层提供的服务",
+      "start": 233,
+      "topics": [
+        {
+          "title": "5.1.1 传输层的功能",
+          "page": 233
+        },
+        {
+          "title": "5.1.2 传输层的寻址与端口",
+          "page": 234
+        },
+        {
+          "title": "5.1.3 无连接服务与面向连接服务",
+          "page": 235
+        },
+        {
+          "title": "5.1.4 本节习题精选",
+          "page": 236
+        },
+        {
+          "title": "5.1.5 答案与解析",
+          "page": 237
+        }
+      ],
+      "q_start": 236,
+      "a_start": 237,
+      "end": 238,
+      "question_count": 0
+    },
+    {
+      "key": "5.2",
+      "name": "UDP",
+      "start": 238,
+      "topics": [
+        {
+          "title": "5.2.1 UDP 数据报",
+          "page": 238
+        },
+        {
+          "title": "5.2.2 UDP 检验",
+          "page": 239
+        },
+        {
+          "title": "5.2.3 本节习题精选",
+          "page": 240
+        },
+        {
+          "title": "5.2.4 答案与解析",
+          "page": 242
+        }
+      ],
+      "q_start": 240,
+      "a_start": 242,
+      "end": 245,
+      "question_count": 3
+    },
+    {
+      "key": "5.3",
+      "name": "TCP",
+      "start": 245,
+      "topics": [
+        {
+          "title": "5.3.1 TCP 的特点",
+          "page": 245
+        },
+        {
+          "title": "5.3.2 TCP 报文段",
+          "page": 245
+        },
+        {
+          "title": "5.3.3 TCP 连接管理",
+          "page": 247
+        },
+        {
+          "title": "5.3.4 TCP 可靠传输",
+          "page": 249
+        },
+        {
+          "title": "5.3.5 TCP 流量控制",
+          "page": 250
+        },
+        {
+          "title": "5.3.6 TCP 拥塞控制",
+          "page": 251
+        },
+        {
+          "title": "5.3.7 本节习题精选",
+          "page": 254
+        },
+        {
+          "title": "5.3.8 答案与解析",
+          "page": 264
+        }
+      ],
+      "q_start": 254,
+      "a_start": 264,
+      "end": 273,
+      "question_count": 21
+    },
+    {
+      "key": "6.1",
+      "name": "网络应用模型",
+      "start": 275,
+      "topics": [
+        {
+          "title": "6.1.1 客户/服务器模型",
+          "page": 275
+        },
+        {
+          "title": "6.1.2 P2P 模型",
+          "page": 276
+        },
+        {
+          "title": "6.1.3 本节习题精选",
+          "page": 276
+        },
+        {
+          "title": "6.1.4 答案与解析",
+          "page": 277
+        }
+      ],
+      "q_start": 276,
+      "a_start": 277,
+      "end": 278,
+      "question_count": 1
+    },
+    {
+      "key": "6.2",
+      "name": "域名系统",
+      "start": 278,
+      "topics": [
+        {
+          "title": "6.2.1 层次域名空间",
+          "page": 278
+        },
+        {
+          "title": "6.2.2 域名服务器",
+          "page": 279
+        },
+        {
+          "title": "6.2.3 域名解析过程",
+          "page": 280
+        },
+        {
+          "title": "6.2.4 本节习题精选",
+          "page": 281
+        },
+        {
+          "title": "6.2.5 答案与解析",
+          "page": 283
+        }
+      ],
+      "q_start": 281,
+      "a_start": 283,
+      "end": 285,
+      "question_count": 4
+    },
+    {
+      "key": "6.3",
+      "name": "文件传输协议",
+      "start": 285,
+      "topics": [
+        {
+          "title": "6.3.1 FTP 的工作原理",
+          "page": 285
+        },
+        {
+          "title": "6.3.2 控制连接与数据连接",
+          "page": 286
+        },
+        {
+          "title": "6.3.3 本节习题精选",
+          "page": 287
+        },
+        {
+          "title": "6.3.4 答案与解析",
+          "page": 289
+        }
+      ],
+      "q_start": 287,
+      "a_start": 289,
+      "end": 291,
+      "question_count": 3
+    },
+    {
+      "key": "6.4",
+      "name": "电子邮件",
+      "start": 291,
+      "topics": [
+        {
+          "title": "6.4.1 电子邮件系统的组成结构",
+          "page": 291
+        },
+        {
+          "title": "6.4.2 电子邮件格式与 MIME",
+          "page": 292
+        },
+        {
+          "title": "6.4.3 SMTP 和 POP3",
+          "page": 293
+        },
+        {
+          "title": "6.4.4 本节习题精选",
+          "page": 294
+        },
+        {
+          "title": "6.4.5 答案与解析",
+          "page": 296
+        }
+      ],
+      "q_start": 294,
+      "a_start": 296,
+      "end": 297,
+      "question_count": 4
+    },
+    {
+      "key": "6.5",
+      "name": "万维网",
+      "start": 297,
+      "topics": [
+        {
+          "title": "6.5.1 WWW 的概念与组成结构",
+          "page": 297
+        },
+        {
+          "title": "6.5.2 超文本传输协议",
+          "page": 298
+        },
+        {
+          "title": "6.5.3 本节习题精选",
+          "page": 302
+        },
+        {
+          "title": "6.5.4 答案与解析",
+          "page": 306
+        }
+      ],
+      "q_start": 302,
+      "a_start": 306,
+      "end": 311,
+      "question_count": 6
+    }
+  ],
+  "questions": [
+    {
+      "section": "1.1",
+      "page": 21,
+      "y": 0.4827586204471983,
+      "year": 2010,
+      "number": "14",
+      "kind": "选择",
+      "id": "CN-1.1-2010-MC14",
+      "book_page": 9,
+      "question_reading_pages": [
+        21
+      ],
+      "solution_section_pages": [
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "1.1",
+      "page": 21,
+      "y": 0.6681034483836206,
+      "year": 2013,
+      "number": "15",
+      "kind": "选择",
+      "id": "CN-1.1-2013-MC15",
+      "book_page": 9,
+      "question_reading_pages": [
+        21
+      ],
+      "solution_section_pages": [
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "1.1",
+      "page": 21,
+      "y": 0.7887931033135777,
+      "year": 2023,
+      "number": "16",
+      "kind": "选择",
+      "id": "CN-1.1-2023-MC16",
+      "book_page": 9,
+      "question_reading_pages": [
+        21,
+        22
+      ],
+      "solution_section_pages": [
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "1.1",
+      "page": 22,
+      "y": 0.12267904495813986,
+      "year": 2024,
+      "number": "17",
+      "kind": "选择",
+      "id": "CN-1.1-2024-MC17",
+      "book_page": 10,
+      "question_reading_pages": [
+        22
+      ],
+      "solution_section_pages": [
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "1.2",
+      "page": 36,
+      "y": 0.37068965514547414,
+      "year": 2009,
+      "number": "29",
+      "kind": "选择",
+      "id": "CN-1.2-2009-MC29",
+      "book_page": 24,
+      "question_reading_pages": [
+        36
+      ],
+      "solution_section_pages": [
+        37,
+        38,
+        39,
+        40
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "1.2",
+      "page": 36,
+      "y": 0.4116379310075431,
+      "year": 2010,
+      "number": "30",
+      "kind": "选择",
+      "id": "CN-1.2-2010-MC30",
+      "book_page": 24,
+      "question_reading_pages": [
+        36
+      ],
+      "solution_section_pages": [
+        37,
+        38,
+        39,
+        40
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "1.2",
+      "page": 36,
+      "y": 0.46551724102909486,
+      "year": 2013,
+      "number": "31",
+      "kind": "选择",
+      "id": "CN-1.2-2013-MC31",
+      "book_page": 24,
+      "question_reading_pages": [
+        36
+      ],
+      "solution_section_pages": [
+        37,
+        38,
+        39,
+        40
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "1.2",
+      "page": 36,
+      "y": 0.5106100794139589,
+      "year": 2014,
+      "number": "32",
+      "kind": "选择",
+      "id": "CN-1.2-2014-MC32",
+      "book_page": 24,
+      "question_reading_pages": [
+        36
+      ],
+      "solution_section_pages": [
+        37,
+        38,
+        39,
+        40
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "1.2",
+      "page": 36,
+      "y": 0.5517241380747127,
+      "year": 2016,
+      "number": "33",
+      "kind": "选择",
+      "id": "CN-1.2-2016-MC33",
+      "book_page": 24,
+      "question_reading_pages": [
+        36
+      ],
+      "solution_section_pages": [
+        37,
+        38,
+        39,
+        40
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "1.2",
+      "page": 36,
+      "y": 0.6120689653825432,
+      "year": 2017,
+      "number": "34",
+      "kind": "选择",
+      "id": "CN-1.2-2017-MC34",
+      "book_page": 24,
+      "question_reading_pages": [
+        36
+      ],
+      "solution_section_pages": [
+        37,
+        38,
+        39,
+        40
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "1.2",
+      "page": 36,
+      "y": 0.6916445623072778,
+      "year": 2019,
+      "number": "35",
+      "kind": "选择",
+      "id": "CN-1.2-2019-MC35",
+      "book_page": 24,
+      "question_reading_pages": [
+        36
+      ],
+      "solution_section_pages": [
+        37,
+        38,
+        39,
+        40
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "1.2",
+      "page": 36,
+      "y": 0.7306034482219828,
+      "year": 2020,
+      "number": "36",
+      "kind": "选择",
+      "id": "CN-1.2-2020-MC36",
+      "book_page": 24,
+      "question_reading_pages": [
+        36,
+        37
+      ],
+      "solution_section_pages": [
+        37,
+        38,
+        39,
+        40
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "1.2",
+      "page": 37,
+      "y": 0.10129310339439657,
+      "year": 2021,
+      "number": "37",
+      "kind": "选择",
+      "id": "CN-1.2-2021-MC37",
+      "book_page": 25,
+      "question_reading_pages": [
+        37
+      ],
+      "solution_section_pages": [
+        37,
+        38,
+        39,
+        40
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "1.2",
+      "page": 37,
+      "y": 0.1616379309698276,
+      "year": 2022,
+      "number": "38",
+      "kind": "选择",
+      "id": "CN-1.2-2022-MC38",
+      "book_page": 25,
+      "question_reading_pages": [
+        37
+      ],
+      "solution_section_pages": [
+        37,
+        38,
+        39,
+        40
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "2.1",
+      "page": 48,
+      "y": 0.7155172416666666,
+      "year": 2009,
+      "number": "18",
+      "kind": "选择",
+      "id": "CN-2.1-2009-MC18",
+      "book_page": 36,
+      "question_reading_pages": [
+        48
+      ],
+      "solution_section_pages": [
+        50,
+        51,
+        52,
+        53
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "2.1",
+      "page": 48,
+      "y": 0.7758620690732758,
+      "year": 2011,
+      "number": "19",
+      "kind": "选择",
+      "id": "CN-2.1-2011-MC19",
+      "book_page": 36,
+      "question_reading_pages": [
+        48
+      ],
+      "solution_section_pages": [
+        50,
+        51,
+        52,
+        53
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "2.1",
+      "page": 48,
+      "y": 0.8362068966864223,
+      "year": 2013,
+      "number": "20",
+      "kind": "选择",
+      "id": "CN-2.1-2013-MC20",
+      "book_page": 36,
+      "question_reading_pages": [
+        48,
+        49
+      ],
+      "solution_section_pages": [
+        50,
+        51,
+        52,
+        53
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "2.1",
+      "page": 49,
+      "y": 0.12267904538019447,
+      "year": 2014,
+      "number": "21",
+      "kind": "选择",
+      "id": "CN-2.1-2014-MC21",
+      "book_page": 37,
+      "question_reading_pages": [
+        49
+      ],
+      "solution_section_pages": [
+        50,
+        51,
+        52,
+        53
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "2.1",
+      "page": 49,
+      "y": 0.1616379310075431,
+      "year": 2015,
+      "number": "22",
+      "kind": "选择",
+      "id": "CN-2.1-2015-MC22",
+      "book_page": 37,
+      "question_reading_pages": [
+        49
+      ],
+      "solution_section_pages": [
+        50,
+        51,
+        52,
+        53
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "2.1",
+      "page": 49,
+      "y": 0.368534482731681,
+      "year": 2016,
+      "number": "23",
+      "kind": "选择",
+      "id": "CN-2.1-2016-MC23",
+      "book_page": 37,
+      "question_reading_pages": [
+        49
+      ],
+      "solution_section_pages": [
+        50,
+        51,
+        52,
+        53
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "2.1",
+      "page": 49,
+      "y": 0.49137931012931035,
+      "year": 2017,
+      "number": "24",
+      "kind": "选择",
+      "id": "CN-2.1-2017-MC24",
+      "book_page": 37,
+      "question_reading_pages": [
+        49
+      ],
+      "solution_section_pages": [
+        50,
+        51,
+        52,
+        53
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "2.1",
+      "page": 49,
+      "y": 0.5517241378879311,
+      "year": 2021,
+      "number": "25",
+      "kind": "选择",
+      "id": "CN-2.1-2021-MC25",
+      "book_page": 37,
+      "question_reading_pages": [
+        49
+      ],
+      "solution_section_pages": [
+        50,
+        51,
+        52,
+        53
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "2.1",
+      "page": 49,
+      "y": 0.644396551643319,
+      "year": 2022,
+      "number": "26",
+      "kind": "选择",
+      "id": "CN-2.1-2022-MC26",
+      "book_page": 37,
+      "question_reading_pages": [
+        49
+      ],
+      "solution_section_pages": [
+        50,
+        51,
+        52,
+        53
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "2.1",
+      "page": 49,
+      "y": 0.7047413792025863,
+      "year": 2023,
+      "number": "27",
+      "kind": "选择",
+      "id": "CN-2.1-2023-MC27",
+      "book_page": 37,
+      "question_reading_pages": [
+        49
+      ],
+      "solution_section_pages": [
+        50,
+        51,
+        52,
+        53
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "2.1",
+      "page": 49,
+      "y": 0.7650862068606321,
+      "year": 2024,
+      "number": "28",
+      "kind": "选择",
+      "id": "CN-2.1-2024-MC28",
+      "book_page": 37,
+      "question_reading_pages": [
+        49,
+        50
+      ],
+      "solution_section_pages": [
+        50,
+        51,
+        52,
+        53
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "2.2",
+      "page": 57,
+      "y": 0.284482758908046,
+      "year": 2012,
+      "number": "11",
+      "kind": "选择",
+      "id": "CN-2.2-2012-MC11",
+      "book_page": 45,
+      "question_reading_pages": [
+        57
+      ],
+      "solution_section_pages": [
+        57,
+        58
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "2.2",
+      "page": 57,
+      "y": 0.32543103442887933,
+      "year": 2018,
+      "number": "12",
+      "kind": "选择",
+      "id": "CN-2.2-2018-MC12",
+      "book_page": 45,
+      "question_reading_pages": [
+        57
+      ],
+      "solution_section_pages": [
+        57,
+        58
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "3.2",
+      "page": 68,
+      "y": 0.9094827585398707,
+      "year": 2013,
+      "number": "01",
+      "kind": "选择",
+      "id": "CN-3.2-2013-MC01",
+      "book_page": 56,
+      "question_reading_pages": [
+        68,
+        69
+      ],
+      "solution_section_pages": [
+        69
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "3.3",
+      "page": 73,
+      "y": 0.41379310373563216,
+      "year": 2023,
+      "number": "07",
+      "kind": "选择",
+      "id": "CN-3.3-2023-MC07",
+      "book_page": 61,
+      "question_reading_pages": [
+        73
+      ],
+      "solution_section_pages": [
+        73,
+        74
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "3.4",
+      "page": 82,
+      "y": 0.13992042432236407,
+      "year": 2009,
+      "number": "22",
+      "kind": "选择",
+      "id": "CN-3.4-2009-MC22",
+      "book_page": 70,
+      "question_reading_pages": [
+        82
+      ],
+      "solution_section_pages": [
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "3.4",
+      "page": 82,
+      "y": 0.21982758607219832,
+      "year": 2011,
+      "number": "23",
+      "kind": "选择",
+      "id": "CN-3.4-2011-MC23",
+      "book_page": 70,
+      "question_reading_pages": [
+        82
+      ],
+      "solution_section_pages": [
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "3.4",
+      "page": 82,
+      "y": 0.27785145902064,
+      "year": 2012,
+      "number": "24",
+      "kind": "选择",
+      "id": "CN-3.4-2012-MC24",
+      "book_page": 70,
+      "question_reading_pages": [
+        82
+      ],
+      "solution_section_pages": [
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "3.4",
+      "page": 82,
+      "y": 0.357758620554957,
+      "year": 2014,
+      "number": "25",
+      "kind": "选择",
+      "id": "CN-3.4-2014-MC25",
+      "book_page": 70,
+      "question_reading_pages": [
+        82
+      ],
+      "solution_section_pages": [
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "3.4",
+      "page": 82,
+      "y": 0.45474137922952584,
+      "year": 2015,
+      "number": "26",
+      "kind": "选择",
+      "id": "CN-3.4-2015-MC26",
+      "book_page": 70,
+      "question_reading_pages": [
+        82
+      ],
+      "solution_section_pages": [
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "3.4",
+      "page": 82,
+      "y": 0.5237068962015086,
+      "year": 2018,
+      "number": "27",
+      "kind": "选择",
+      "id": "CN-3.4-2018-MC27",
+      "book_page": 70,
+      "question_reading_pages": [
+        82
+      ],
+      "solution_section_pages": [
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "3.4",
+      "page": 82,
+      "y": 0.6120689658045977,
+      "year": 2019,
+      "number": "28",
+      "kind": "选择",
+      "id": "CN-3.4-2019-MC28",
+      "book_page": 70,
+      "question_reading_pages": [
+        82
+      ],
+      "solution_section_pages": [
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "3.4",
+      "page": 82,
+      "y": 0.6724137932112069,
+      "year": 2020,
+      "number": "29",
+      "kind": "选择",
+      "id": "CN-3.4-2020-MC29",
+      "book_page": 70,
+      "question_reading_pages": [
+        82
+      ],
+      "solution_section_pages": [
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "3.4",
+      "page": 82,
+      "y": 0.7500000001346983,
+      "year": 2023,
+      "number": "30",
+      "kind": "选择",
+      "id": "CN-3.4-2023-MC30",
+      "book_page": 70,
+      "question_reading_pages": [
+        82
+      ],
+      "solution_section_pages": [
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "3.4",
+      "page": 82,
+      "y": 0.8468169758758842,
+      "year": 2024,
+      "number": "31",
+      "kind": "选择",
+      "id": "CN-3.4-2024-MC31",
+      "book_page": 70,
+      "question_reading_pages": [
+        82,
+        83
+      ],
+      "solution_section_pages": [
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "3.4",
+      "page": 83,
+      "y": 0.8103448276939654,
+      "year": 2017,
+      "number": "07",
+      "kind": "综合",
+      "id": "CN-3.4-2017-C07",
+      "book_page": 71,
+      "question_reading_pages": [
+        83,
+        84
+      ],
+      "solution_section_pages": [
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "3.5",
+      "page": 103,
+      "y": 0.400862068911638,
+      "year": 2009,
+      "number": "33",
+      "kind": "选择",
+      "id": "CN-3.5-2009-MC33",
+      "book_page": 91,
+      "question_reading_pages": [
+        103
+      ],
+      "solution_section_pages": [
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "3.5",
+      "page": 103,
+      "y": 0.47844827551185354,
+      "year": 2011,
+      "number": "34",
+      "kind": "选择",
+      "id": "CN-3.5-2011-MC34",
+      "book_page": 91,
+      "question_reading_pages": [
+        103
+      ],
+      "solution_section_pages": [
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "3.5",
+      "page": 103,
+      "y": 0.5215517240301725,
+      "year": 2013,
+      "number": "35",
+      "kind": "选择",
+      "id": "CN-3.5-2013-MC35",
+      "book_page": 91,
+      "question_reading_pages": [
+        103
+      ],
+      "solution_section_pages": [
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "3.5",
+      "page": 103,
+      "y": 0.5603448275143679,
+      "year": 2014,
+      "number": "36",
+      "kind": "选择",
+      "id": "CN-3.5-2014-MC36",
+      "book_page": 91,
+      "question_reading_pages": [
+        103
+      ],
+      "solution_section_pages": [
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "3.5",
+      "page": 103,
+      "y": 0.6399204245109417,
+      "year": 2015,
+      "number": "37",
+      "kind": "选择",
+      "id": "CN-3.5-2015-MC37",
+      "book_page": 91,
+      "question_reading_pages": [
+        103
+      ],
+      "solution_section_pages": [
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "3.5",
+      "page": 103,
+      "y": 0.7392241378232759,
+      "year": 2016,
+      "number": "38",
+      "kind": "选择",
+      "id": "CN-3.5-2016-MC38",
+      "book_page": 91,
+      "question_reading_pages": [
+        103,
+        104
+      ],
+      "solution_section_pages": [
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "3.5",
+      "page": 104,
+      "y": 0.10344827611350571,
+      "year": 2018,
+      "number": "39",
+      "kind": "选择",
+      "id": "CN-3.5-2018-MC39",
+      "book_page": 92,
+      "question_reading_pages": [
+        104
+      ],
+      "solution_section_pages": [
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "3.5",
+      "page": 104,
+      "y": 0.1830238726521054,
+      "year": 2019,
+      "number": "40",
+      "kind": "选择",
+      "id": "CN-3.5-2019-MC40",
+      "book_page": 92,
+      "question_reading_pages": [
+        104
+      ],
+      "solution_section_pages": [
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "3.5",
+      "page": 104,
+      "y": 0.2433687003999503,
+      "year": 2020,
+      "number": "41",
+      "kind": "选择",
+      "id": "CN-3.5-2020-MC41",
+      "book_page": 92,
+      "question_reading_pages": [
+        104
+      ],
+      "solution_section_pages": [
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "3.5",
+      "page": 104,
+      "y": 0.5560344826239224,
+      "year": 2023,
+      "number": "42",
+      "kind": "选择",
+      "id": "CN-3.5-2023-MC42",
+      "book_page": 92,
+      "question_reading_pages": [
+        104
+      ],
+      "solution_section_pages": [
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "3.5",
+      "page": 104,
+      "y": 0.635775862033046,
+      "year": 2024,
+      "number": "43",
+      "kind": "选择",
+      "id": "CN-3.5-2024-MC43",
+      "book_page": 92,
+      "question_reading_pages": [
+        104,
+        105
+      ],
+      "solution_section_pages": [
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "3.5",
+      "page": 105,
+      "y": 0.10344827611350571,
+      "year": 2010,
+      "number": "05",
+      "kind": "综合",
+      "id": "CN-3.5-2010-C05",
+      "book_page": 93,
+      "question_reading_pages": [
+        105
+      ],
+      "solution_section_pages": [
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "3.6",
+      "page": 122,
+      "y": 0.30603448279454026,
+      "year": 2012,
+      "number": "26",
+      "kind": "选择",
+      "id": "CN-3.6-2012-MC26",
+      "book_page": 110,
+      "question_reading_pages": [
+        122
+      ],
+      "solution_section_pages": [
+        122,
+        123,
+        124,
+        125
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "3.6",
+      "page": 122,
+      "y": 0.3663793104885058,
+      "year": 2017,
+      "number": "27",
+      "kind": "选择",
+      "id": "CN-3.6-2017-MC27",
+      "book_page": 110,
+      "question_reading_pages": [
+        122
+      ],
+      "solution_section_pages": [
+        122,
+        123,
+        124,
+        125
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "3.6",
+      "page": 122,
+      "y": 0.5840517240301725,
+      "year": 2019,
+      "number": "28",
+      "kind": "选择",
+      "id": "CN-3.6-2019-MC28",
+      "book_page": 110,
+      "question_reading_pages": [
+        122
+      ],
+      "solution_section_pages": [
+        122,
+        123,
+        124,
+        125
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "3.8",
+      "page": 133,
+      "y": 0.9030172413146551,
+      "year": 2009,
+      "number": "17",
+      "kind": "选择",
+      "id": "CN-3.8-2009-MC17",
+      "book_page": 121,
+      "question_reading_pages": [
+        133,
+        134
+      ],
+      "solution_section_pages": [
+        134,
+        135,
+        136
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "3.8",
+      "page": 134,
+      "y": 0.14439655185883615,
+      "year": 2013,
+      "number": "18",
+      "kind": "选择",
+      "id": "CN-3.8-2013-MC18",
+      "book_page": 122,
+      "question_reading_pages": [
+        134
+      ],
+      "solution_section_pages": [
+        134,
+        135,
+        136
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "3.8",
+      "page": 134,
+      "y": 0.20689655161637932,
+      "year": 2014,
+      "number": "19",
+      "kind": "选择",
+      "id": "CN-3.8-2014-MC19",
+      "book_page": 122,
+      "question_reading_pages": [
+        134
+      ],
+      "solution_section_pages": [
+        134,
+        135,
+        136
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "3.8",
+      "page": 134,
+      "y": 0.4071618038212865,
+      "year": 2015,
+      "number": "20",
+      "kind": "选择",
+      "id": "CN-3.8-2015-MC20",
+      "book_page": 122,
+      "question_reading_pages": [
+        134
+      ],
+      "solution_section_pages": [
+        134,
+        135,
+        136
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "3.8",
+      "page": 134,
+      "y": 0.5106100796833554,
+      "year": 2016,
+      "number": "21",
+      "kind": "选择",
+      "id": "CN-3.8-2016-MC21",
+      "book_page": 122,
+      "question_reading_pages": [
+        134
+      ],
+      "solution_section_pages": [
+        134,
+        135,
+        136
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "4.1",
+      "page": 146,
+      "y": 0.20026525198938994,
+      "year": 2011,
+      "number": "19",
+      "kind": "选择",
+      "id": "CN-4.1-2011-MC19",
+      "book_page": 134,
+      "question_reading_pages": [
+        146
+      ],
+      "solution_section_pages": [
+        146,
+        147,
+        148
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "4.1",
+      "page": 146,
+      "y": 0.25862068960129303,
+      "year": 2020,
+      "number": "20",
+      "kind": "选择",
+      "id": "CN-4.1-2020-MC20",
+      "book_page": 134,
+      "question_reading_pages": [
+        146
+      ],
+      "solution_section_pages": [
+        146,
+        147,
+        148
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "4.1",
+      "page": 146,
+      "y": 0.357758620554957,
+      "year": 2022,
+      "number": "21",
+      "kind": "选择",
+      "id": "CN-4.1-2022-MC21",
+      "book_page": 134,
+      "question_reading_pages": [
+        146
+      ],
+      "solution_section_pages": [
+        146,
+        147,
+        148
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "4.2",
+      "page": 167,
+      "y": 0.28448275851293103,
+      "year": 2010,
+      "number": "51",
+      "kind": "选择",
+      "id": "CN-4.2-2010-MC51",
+      "book_page": 155,
+      "question_reading_pages": [
+        167
+      ],
+      "solution_section_pages": [
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "4.2",
+      "page": 167,
+      "y": 0.36405835532990705,
+      "year": 2010,
+      "number": "52",
+      "kind": "选择",
+      "id": "CN-4.2-2010-MC52",
+      "book_page": 155,
+      "question_reading_pages": [
+        167
+      ],
+      "solution_section_pages": [
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "4.2",
+      "page": 167,
+      "y": 0.42440318331122895,
+      "year": 2011,
+      "number": "53",
+      "kind": "选择",
+      "id": "CN-4.2-2011-MC53",
+      "book_page": 155,
+      "question_reading_pages": [
+        167
+      ],
+      "solution_section_pages": [
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "4.2",
+      "page": 167,
+      "y": 0.4847480105202807,
+      "year": 2011,
+      "number": "54",
+      "kind": "选择",
+      "id": "CN-4.2-2011-MC54",
+      "book_page": 155,
+      "question_reading_pages": [
+        167
+      ],
+      "solution_section_pages": [
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "4.2",
+      "page": 167,
+      "y": 0.7433687000497348,
+      "year": 2012,
+      "number": "55",
+      "kind": "选择",
+      "id": "CN-4.2-2012-MC55",
+      "book_page": 155,
+      "question_reading_pages": [
+        167
+      ],
+      "solution_section_pages": [
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "4.2",
+      "page": 167,
+      "y": 0.8060344827155173,
+      "year": 2012,
+      "number": "56",
+      "kind": "选择",
+      "id": "CN-4.2-2012-MC56",
+      "book_page": 155,
+      "question_reading_pages": [
+        167
+      ],
+      "solution_section_pages": [
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "4.2",
+      "page": 167,
+      "y": 0.8663793102801723,
+      "year": 2012,
+      "number": "57",
+      "kind": "选择",
+      "id": "CN-4.2-2012-MC57",
+      "book_page": 155,
+      "question_reading_pages": [
+        167
+      ],
+      "solution_section_pages": [
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "4.2",
+      "page": 167,
+      "y": 0.9071618039649645,
+      "year": 2015,
+      "number": "58",
+      "kind": "选择",
+      "id": "CN-4.2-2015-MC58",
+      "book_page": 155,
+      "question_reading_pages": [
+        167,
+        168
+      ],
+      "solution_section_pages": [
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "4.2",
+      "page": 168,
+      "y": 0.2370689658045977,
+      "year": 2016,
+      "number": "59",
+      "kind": "选择",
+      "id": "CN-4.2-2016-MC59",
+      "book_page": 156,
+      "question_reading_pages": [
+        168
+      ],
+      "solution_section_pages": [
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "4.2",
+      "page": 168,
+      "y": 0.5495689652298851,
+      "year": 2016,
+      "number": "60",
+      "kind": "选择",
+      "id": "CN-4.2-2016-MC60",
+      "book_page": 156,
+      "prerequisite_note": "引用同页教材选择题59的拓扑，PDF168必须同时保留题59图。",
+      "question_reading_pages": [
+        168
+      ],
+      "solution_section_pages": [
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "4.2",
+      "page": 168,
+      "y": 0.6485411141930537,
+      "year": 2017,
+      "number": "61",
+      "kind": "选择",
+      "id": "CN-4.2-2017-MC61",
+      "book_page": 156,
+      "question_reading_pages": [
+        168
+      ],
+      "solution_section_pages": [
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "4.2",
+      "page": 168,
+      "y": 0.7088859415098641,
+      "year": 2017,
+      "number": "62",
+      "kind": "选择",
+      "id": "CN-4.2-2017-MC62",
+      "book_page": 156,
+      "question_reading_pages": [
+        168
+      ],
+      "solution_section_pages": [
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "4.2",
+      "page": 168,
+      "y": 0.7672413792025863,
+      "year": 2018,
+      "number": "63",
+      "kind": "选择",
+      "id": "CN-4.2-2018-MC63",
+      "book_page": 156,
+      "question_reading_pages": [
+        168
+      ],
+      "solution_section_pages": [
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "4.2",
+      "page": 168,
+      "y": 0.8468169760195624,
+      "year": 2018,
+      "number": "64",
+      "kind": "选择",
+      "id": "CN-4.2-2018-MC64",
+      "book_page": 156,
+      "question_reading_pages": [
+        168,
+        169
+      ],
+      "solution_section_pages": [
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "4.2",
+      "page": 169,
+      "y": 0.2650862071479885,
+      "year": 2019,
+      "number": "65",
+      "kind": "选择",
+      "id": "CN-4.2-2019-MC65",
+      "book_page": 157,
+      "question_reading_pages": [
+        169
+      ],
+      "solution_section_pages": [
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "4.2",
+      "page": 169,
+      "y": 0.32327586204202596,
+      "year": 2021,
+      "number": "66",
+      "kind": "选择",
+      "id": "CN-4.2-2021-MC66",
+      "book_page": 157,
+      "question_reading_pages": [
+        169
+      ],
+      "solution_section_pages": [
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "4.2",
+      "page": 169,
+      "y": 0.4030172412715516,
+      "year": 2021,
+      "number": "67",
+      "kind": "选择",
+      "id": "CN-4.2-2021-MC67",
+      "book_page": 157,
+      "question_reading_pages": [
+        169
+      ],
+      "solution_section_pages": [
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "4.2",
+      "page": 169,
+      "y": 0.4784482756465518,
+      "year": 2022,
+      "number": "68",
+      "kind": "选择",
+      "id": "CN-4.2-2022-MC68",
+      "book_page": 157,
+      "question_reading_pages": [
+        169
+      ],
+      "solution_section_pages": [
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "4.2",
+      "page": 169,
+      "y": 0.53879310375741,
+      "year": 2022,
+      "number": "69",
+      "kind": "选择",
+      "id": "CN-4.2-2022-MC69",
+      "book_page": 157,
+      "question_reading_pages": [
+        169
+      ],
+      "solution_section_pages": [
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "4.2",
+      "page": 169,
+      "y": 0.691644562226459,
+      "year": 2023,
+      "number": "70",
+      "kind": "选择",
+      "id": "CN-4.2-2023-MC70",
+      "book_page": 157,
+      "question_reading_pages": [
+        169
+      ],
+      "solution_section_pages": [
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "4.2",
+      "page": 169,
+      "y": 0.8254310345905171,
+      "year": 2023,
+      "number": "71",
+      "kind": "选择",
+      "id": "CN-4.2-2023-MC71",
+      "book_page": 157,
+      "question_reading_pages": [
+        169
+      ],
+      "solution_section_pages": [
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "4.2",
+      "page": 169,
+      "y": 0.9051724140804598,
+      "year": 2024,
+      "number": "72",
+      "kind": "选择",
+      "id": "CN-4.2-2024-MC72",
+      "book_page": 157,
+      "question_reading_pages": [
+        169,
+        170,
+        171,
+        172
+      ],
+      "solution_section_pages": [
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "4.2",
+      "page": 172,
+      "y": 0.48275862076149423,
+      "year": 2009,
+      "number": "13",
+      "kind": "综合",
+      "id": "CN-4.2-2009-C13",
+      "book_page": 160,
+      "question_reading_pages": [
+        172
+      ],
+      "solution_section_pages": [
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "4.2",
+      "page": 172,
+      "y": 0.905172413900862,
+      "year": 2015,
+      "number": "14",
+      "kind": "综合",
+      "id": "CN-4.2-2015-C14",
+      "book_page": 160,
+      "question_reading_pages": [
+        172,
+        173
+      ],
+      "solution_section_pages": [
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "4.2",
+      "page": 173,
+      "y": 0.5278514585357261,
+      "year": 2018,
+      "number": "15",
+      "kind": "综合",
+      "id": "CN-4.2-2018-C15",
+      "book_page": 161,
+      "question_reading_pages": [
+        173
+      ],
+      "solution_section_pages": [
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "4.2",
+      "page": 173,
+      "y": 0.8663793103089081,
+      "year": 2020,
+      "number": "16",
+      "kind": "综合",
+      "id": "CN-4.2-2020-C16",
+      "book_page": 161,
+      "question_reading_pages": [
+        173,
+        174
+      ],
+      "solution_section_pages": [
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "4.2",
+      "page": 174,
+      "y": 0.501989389794706,
+      "year": 2022,
+      "number": "17",
+      "kind": "综合",
+      "id": "CN-4.2-2022-C17",
+      "book_page": 162,
+      "question_reading_pages": [
+        174,
+        175
+      ],
+      "solution_section_pages": [
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "4.3",
+      "page": 194,
+      "y": 0.5258620693157328,
+      "year": 2023,
+      "number": "07",
+      "kind": "选择",
+      "id": "CN-4.3-2023-MC07",
+      "book_page": 182,
+      "question_reading_pages": [
+        194
+      ],
+      "solution_section_pages": [
+        194,
+        195
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "4.4",
+      "page": 208,
+      "y": 0.2692307690960709,
+      "year": 2010,
+      "number": "24",
+      "kind": "选择",
+      "id": "CN-4.4-2010-MC24",
+      "book_page": 196,
+      "question_reading_pages": [
+        208
+      ],
+      "solution_section_pages": [
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "4.4",
+      "page": 208,
+      "y": 0.3857758623563219,
+      "year": 2016,
+      "number": "25",
+      "kind": "选择",
+      "id": "CN-4.4-2016-MC25",
+      "book_page": 196,
+      "question_reading_pages": [
+        208
+      ],
+      "solution_section_pages": [
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "4.4",
+      "page": 208,
+      "y": 0.6916445624060565,
+      "year": 2017,
+      "number": "26",
+      "kind": "选择",
+      "id": "CN-4.4-2017-MC26",
+      "book_page": 196,
+      "question_reading_pages": [
+        208
+      ],
+      "solution_section_pages": [
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "4.4",
+      "page": 208,
+      "y": 0.7519893898126658,
+      "year": 2021,
+      "number": "27",
+      "kind": "选择",
+      "id": "CN-4.4-2021-MC27",
+      "book_page": 196,
+      "question_reading_pages": [
+        208,
+        209
+      ],
+      "solution_section_pages": [
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "4.4",
+      "page": 209,
+      "y": 0.6657824934764589,
+      "year": 2013,
+      "number": "04",
+      "kind": "综合",
+      "id": "CN-4.4-2013-C04",
+      "book_page": 197,
+      "question_reading_pages": [
+        209,
+        210
+      ],
+      "solution_section_pages": [
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "4.4",
+      "page": 210,
+      "y": 0.23060344838362068,
+      "year": 2014,
+      "number": "05",
+      "kind": "综合",
+      "id": "CN-4.4-2014-C05",
+      "book_page": 198,
+      "question_reading_pages": [
+        210
+      ],
+      "solution_section_pages": [
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "4.4",
+      "page": 210,
+      "y": 0.8103448274784484,
+      "year": 2024,
+      "number": "06",
+      "kind": "综合",
+      "id": "CN-4.4-2024-C06",
+      "book_page": 198,
+      "question_reading_pages": [
+        210,
+        211
+      ],
+      "solution_section_pages": [
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "4.7",
+      "page": 227,
+      "y": 0.1399204240940488,
+      "year": 2010,
+      "number": "19",
+      "kind": "选择",
+      "id": "CN-4.7-2010-MC19",
+      "book_page": 215,
+      "question_reading_pages": [
+        227
+      ],
+      "solution_section_pages": [
+        228,
+        229,
+        230,
+        231,
+        232
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "4.7",
+      "page": 227,
+      "y": 0.20026525191755085,
+      "year": 2012,
+      "number": "20",
+      "kind": "选择",
+      "id": "CN-4.7-2012-MC20",
+      "book_page": 215,
+      "question_reading_pages": [
+        227
+      ],
+      "solution_section_pages": [
+        228,
+        229,
+        230,
+        231,
+        232
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "4.7",
+      "page": 227,
+      "y": 0.33620689648706903,
+      "year": 2020,
+      "number": "21",
+      "kind": "选择",
+      "id": "CN-4.7-2020-MC21",
+      "book_page": 215,
+      "question_reading_pages": [
+        227,
+        228
+      ],
+      "solution_section_pages": [
+        228,
+        229,
+        230,
+        231,
+        232
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "4.7",
+      "page": 228,
+      "y": 0.1616379308997845,
+      "year": 2019,
+      "number": "03",
+      "kind": "综合",
+      "id": "CN-4.7-2019-C03",
+      "book_page": 216,
+      "question_reading_pages": [
+        228
+      ],
+      "solution_section_pages": [
+        228,
+        229,
+        230,
+        231,
+        232
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "5.2",
+      "page": 241,
+      "y": 0.7887931035829743,
+      "year": 2014,
+      "number": "14",
+      "kind": "选择",
+      "id": "CN-5.2-2014-MC14",
+      "book_page": 229,
+      "question_reading_pages": [
+        241
+      ],
+      "solution_section_pages": [
+        242,
+        243,
+        244,
+        245
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "5.2",
+      "page": 241,
+      "y": 0.8491379309267241,
+      "year": 2018,
+      "number": "15",
+      "kind": "选择",
+      "id": "CN-5.2-2018-MC15",
+      "book_page": 229,
+      "question_reading_pages": [
+        241
+      ],
+      "solution_section_pages": [
+        242,
+        243,
+        244,
+        245
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "5.2",
+      "page": 241,
+      "y": 0.8879310345905171,
+      "year": 2024,
+      "number": "16",
+      "kind": "选择",
+      "id": "CN-5.2-2024-MC16",
+      "book_page": 229,
+      "question_reading_pages": [
+        241,
+        242
+      ],
+      "solution_section_pages": [
+        242,
+        243,
+        244,
+        245
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "5.3",
+      "page": 258,
+      "y": 0.7606100796833555,
+      "year": 2009,
+      "number": "42",
+      "kind": "选择",
+      "id": "CN-5.3-2009-MC42",
+      "book_page": 246,
+      "question_reading_pages": [
+        258
+      ],
+      "solution_section_pages": [
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "5.3",
+      "page": 258,
+      "y": 0.8426724137122845,
+      "year": 2009,
+      "number": "43",
+      "kind": "选择",
+      "id": "CN-5.3-2009-MC43",
+      "book_page": 246,
+      "question_reading_pages": [
+        258,
+        259
+      ],
+      "solution_section_pages": [
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "5.3",
+      "page": 259,
+      "y": 0.12500000025143676,
+      "year": 2010,
+      "number": "44",
+      "kind": "选择",
+      "id": "CN-5.3-2010-MC44",
+      "book_page": 247,
+      "question_reading_pages": [
+        259
+      ],
+      "solution_section_pages": [
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "5.3",
+      "page": 259,
+      "y": 0.2261273208471486,
+      "year": 2011,
+      "number": "45",
+      "kind": "选择",
+      "id": "CN-5.3-2011-MC45",
+      "book_page": 247,
+      "question_reading_pages": [
+        259
+      ],
+      "solution_section_pages": [
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "5.3",
+      "page": 259,
+      "y": 0.37068965503771556,
+      "year": 2011,
+      "number": "46",
+      "kind": "选择",
+      "id": "CN-5.3-2011-MC46",
+      "book_page": 247,
+      "question_reading_pages": [
+        259
+      ],
+      "solution_section_pages": [
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "5.3",
+      "page": 259,
+      "y": 0.4675066310033986,
+      "year": 2013,
+      "number": "47",
+      "kind": "选择",
+      "id": "CN-5.3-2013-MC47",
+      "book_page": 247,
+      "question_reading_pages": [
+        259
+      ],
+      "solution_section_pages": [
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "5.3",
+      "page": 259,
+      "y": 0.5560344826239224,
+      "year": 2014,
+      "number": "48",
+      "kind": "选择",
+      "id": "CN-5.3-2014-MC48",
+      "book_page": 247,
+      "question_reading_pages": [
+        259
+      ],
+      "solution_section_pages": [
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "5.3",
+      "page": 259,
+      "y": 0.6571618038482261,
+      "year": 2015,
+      "number": "49",
+      "kind": "选择",
+      "id": "CN-5.3-2015-MC49",
+      "book_page": 247,
+      "question_reading_pages": [
+        259
+      ],
+      "solution_section_pages": [
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "5.3",
+      "page": 259,
+      "y": 0.7778514587781831,
+      "year": 2017,
+      "number": "50",
+      "kind": "选择",
+      "id": "CN-5.3-2017-MC50",
+      "book_page": 247,
+      "question_reading_pages": [
+        259
+      ],
+      "solution_section_pages": [
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "5.3",
+      "page": 259,
+      "y": 0.8381962864452089,
+      "year": 2019,
+      "number": "51",
+      "kind": "选择",
+      "id": "CN-5.3-2019-MC51",
+      "book_page": 247,
+      "question_reading_pages": [
+        259,
+        260
+      ],
+      "solution_section_pages": [
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "5.3",
+      "page": 260,
+      "y": 0.3879310341954023,
+      "year": 2019,
+      "number": "52",
+      "kind": "选择",
+      "id": "CN-5.3-2019-MC52",
+      "book_page": 248,
+      "question_reading_pages": [
+        260
+      ],
+      "solution_section_pages": [
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "5.3",
+      "page": 260,
+      "y": 0.4482758619881466,
+      "year": 2020,
+      "number": "53",
+      "kind": "选择",
+      "id": "CN-5.3-2020-MC53",
+      "book_page": 248,
+      "question_reading_pages": [
+        260
+      ],
+      "solution_section_pages": [
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "5.3",
+      "page": 260,
+      "y": 0.5237068964798851,
+      "year": 2020,
+      "number": "54",
+      "kind": "选择",
+      "id": "CN-5.3-2020-MC54",
+      "book_page": 248,
+      "question_reading_pages": [
+        260
+      ],
+      "solution_section_pages": [
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "5.3",
+      "page": 260,
+      "y": 0.6012931033135777,
+      "year": 2021,
+      "number": "55",
+      "kind": "选择",
+      "id": "CN-5.3-2021-MC55",
+      "book_page": 248,
+      "question_reading_pages": [
+        260
+      ],
+      "solution_section_pages": [
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "5.3",
+      "page": 260,
+      "y": 0.6571618034620911,
+      "year": 2021,
+      "number": "56",
+      "kind": "选择",
+      "id": "CN-5.3-2021-MC56",
+      "book_page": 248,
+      "question_reading_pages": [
+        260
+      ],
+      "solution_section_pages": [
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "5.3",
+      "page": 260,
+      "y": 0.715517241091954,
+      "year": 2021,
+      "number": "57",
+      "kind": "选择",
+      "id": "CN-5.3-2021-MC57",
+      "book_page": 248,
+      "question_reading_pages": [
+        260,
+        261
+      ],
+      "solution_section_pages": [
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "5.3",
+      "page": 261,
+      "y": 0.12267904528141582,
+      "year": 2022,
+      "number": "58",
+      "kind": "选择",
+      "id": "CN-5.3-2022-MC58",
+      "book_page": 249,
+      "question_reading_pages": [
+        261
+      ],
+      "solution_section_pages": [
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "5.3",
+      "page": 261,
+      "y": 0.20026525195347045,
+      "year": 2022,
+      "number": "59",
+      "kind": "选择",
+      "id": "CN-5.3-2022-MC59",
+      "book_page": 249,
+      "question_reading_pages": [
+        261
+      ],
+      "solution_section_pages": [
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "5.3",
+      "page": 261,
+      "y": 0.29956896540948275,
+      "year": 2024,
+      "number": "60",
+      "kind": "选择",
+      "id": "CN-5.3-2024-MC60",
+      "book_page": 249,
+      "question_reading_pages": [
+        261,
+        262
+      ],
+      "solution_section_pages": [
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "5.3",
+      "page": 262,
+      "y": 0.4675066311919762,
+      "year": 2012,
+      "number": "13",
+      "kind": "综合",
+      "id": "CN-5.3-2012-C13",
+      "book_page": 250,
+      "question_reading_pages": [
+        262,
+        263
+      ],
+      "solution_section_pages": [
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "5.3",
+      "page": 263,
+      "y": 0.5019893896510279,
+      "year": 2016,
+      "number": "14",
+      "kind": "综合",
+      "id": "CN-5.3-2016-C14",
+      "book_page": 251,
+      "question_reading_pages": [
+        263,
+        264
+      ],
+      "solution_section_pages": [
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "6.1",
+      "page": 277,
+      "y": 0.4461206895474137,
+      "year": 2019,
+      "number": "06",
+      "kind": "选择",
+      "id": "CN-6.1-2019-MC06",
+      "book_page": 265,
+      "question_reading_pages": [
+        277
+      ],
+      "solution_section_pages": [
+        277,
+        278
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "6.2",
+      "page": 282,
+      "y": 0.8468169762350795,
+      "year": 2010,
+      "number": "11",
+      "kind": "选择",
+      "id": "CN-6.2-2010-MC11",
+      "book_page": 270,
+      "question_reading_pages": [
+        282
+      ],
+      "solution_section_pages": [
+        283,
+        284,
+        285
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "6.2",
+      "page": 282,
+      "y": 0.9071618035788296,
+      "year": 2016,
+      "number": "12",
+      "kind": "选择",
+      "id": "CN-6.2-2016-MC12",
+      "book_page": 270,
+      "question_reading_pages": [
+        282,
+        283
+      ],
+      "solution_section_pages": [
+        283,
+        284,
+        285
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "6.2",
+      "page": 283,
+      "y": 0.16163793125000003,
+      "year": 2018,
+      "number": "13",
+      "kind": "选择",
+      "id": "CN-6.2-2018-MC13",
+      "book_page": 271,
+      "question_reading_pages": [
+        283
+      ],
+      "solution_section_pages": [
+        283,
+        284,
+        285
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "6.2",
+      "page": 283,
+      "y": 0.20258620678879313,
+      "year": 2020,
+      "number": "14",
+      "kind": "选择",
+      "id": "CN-6.2-2020-MC14",
+      "book_page": 271,
+      "question_reading_pages": [
+        283
+      ],
+      "solution_section_pages": [
+        283,
+        284,
+        285
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "6.3",
+      "page": 288,
+      "y": 0.2672413795977011,
+      "year": 2009,
+      "number": "13",
+      "kind": "选择",
+      "id": "CN-6.3-2009-MC13",
+      "book_page": 276,
+      "question_reading_pages": [
+        288
+      ],
+      "solution_section_pages": [
+        289,
+        290,
+        291
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "6.3",
+      "page": 288,
+      "y": 0.3295755969247347,
+      "year": 2017,
+      "number": "14",
+      "kind": "选择",
+      "id": "CN-6.3-2017-MC14",
+      "book_page": 276,
+      "question_reading_pages": [
+        288
+      ],
+      "solution_section_pages": [
+        289,
+        290,
+        291
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "6.3",
+      "page": 288,
+      "y": 0.5237068963900862,
+      "year": 2023,
+      "number": "04",
+      "kind": "综合",
+      "id": "CN-6.3-2023-C04",
+      "book_page": 276,
+      "question_reading_pages": [
+        288,
+        289
+      ],
+      "solution_section_pages": [
+        289,
+        290,
+        291
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "6.4",
+      "page": 295,
+      "y": 0.5603448274784484,
+      "year": 2012,
+      "number": "09",
+      "kind": "选择",
+      "id": "CN-6.4-2012-MC09",
+      "book_page": 283,
+      "question_reading_pages": [
+        295
+      ],
+      "solution_section_pages": [
+        296,
+        297
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "6.4",
+      "page": 295,
+      "y": 0.7112068965247844,
+      "year": 2013,
+      "number": "10",
+      "kind": "选择",
+      "id": "CN-6.4-2013-MC10",
+      "book_page": 283,
+      "question_reading_pages": [
+        295
+      ],
+      "solution_section_pages": [
+        296,
+        297
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "6.4",
+      "page": 295,
+      "y": 0.8295755970324934,
+      "year": 2015,
+      "number": "11",
+      "kind": "选择",
+      "id": "CN-6.4-2015-MC11",
+      "book_page": 283,
+      "question_reading_pages": [
+        295,
+        296
+      ],
+      "solution_section_pages": [
+        296,
+        297
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "6.4",
+      "page": 296,
+      "y": 0.10344827575431037,
+      "year": 2018,
+      "number": "12",
+      "kind": "选择",
+      "id": "CN-6.4-2018-MC12",
+      "book_page": 284,
+      "question_reading_pages": [
+        296
+      ],
+      "solution_section_pages": [
+        296,
+        297
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "6.5",
+      "page": 304,
+      "y": 0.5537135277167606,
+      "year": 2014,
+      "number": "16",
+      "kind": "选择",
+      "id": "CN-6.5-2014-MC16",
+      "book_page": 292,
+      "question_reading_pages": [
+        304
+      ],
+      "solution_section_pages": [
+        306,
+        307,
+        308,
+        309,
+        310,
+        311
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "6.5",
+      "page": 304,
+      "y": 0.5926724139278017,
+      "year": 2015,
+      "number": "17",
+      "kind": "选择",
+      "id": "CN-6.5-2015-MC17",
+      "book_page": 292,
+      "question_reading_pages": [
+        304
+      ],
+      "solution_section_pages": [
+        306,
+        307,
+        308,
+        309,
+        310,
+        311
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "6.5",
+      "page": 304,
+      "y": 0.8081896552801725,
+      "year": 2022,
+      "number": "18",
+      "kind": "选择",
+      "id": "CN-6.5-2022-MC18",
+      "book_page": 292,
+      "question_reading_pages": [
+        304,
+        305
+      ],
+      "solution_section_pages": [
+        306,
+        307,
+        308,
+        309,
+        310,
+        311
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "6.5",
+      "page": 305,
+      "y": 0.10344827611350571,
+      "year": 2024,
+      "number": "19",
+      "kind": "选择",
+      "id": "CN-6.5-2024-MC19",
+      "book_page": 293,
+      "question_reading_pages": [
+        305
+      ],
+      "solution_section_pages": [
+        306,
+        307,
+        308,
+        309,
+        310,
+        311
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "6.5",
+      "page": 305,
+      "y": 0.3749999998922413,
+      "year": 2011,
+      "number": "03",
+      "kind": "综合",
+      "id": "CN-6.5-2011-C03",
+      "book_page": 293,
+      "question_reading_pages": [
+        305,
+        306
+      ],
+      "solution_section_pages": [
+        306,
+        307,
+        308,
+        309,
+        310,
+        311
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    },
+    {
+      "section": "6.5",
+      "page": 306,
+      "y": 0.2650862070043103,
+      "year": 2021,
+      "number": "04",
+      "kind": "综合",
+      "id": "CN-6.5-2021-C04",
+      "book_page": 294,
+      "question_reading_pages": [
+        306
+      ],
+      "solution_section_pages": [
+        306,
+        307,
+        308,
+        309,
+        310,
+        311
+      ],
+      "metadata_checked": "年份、教材题号已逐条目视核对；题型按教材题区",
+      "question_boundary": "完整原页保守范围，可能含相邻题；不是逐题精确裁图"
+    }
+  ],
+  "pages": [
+    {
+      "pdf_page": 19,
+      "book_page": 7,
+      "file": "真题/PDF原页/PDF_019_书页007.png",
+      "sha256": "26b98504d1db414fc06460e060754d0ca25e217038b1eb36916a449432dc56a8"
+    },
+    {
+      "pdf_page": 20,
+      "book_page": 8,
+      "file": "真题/PDF原页/PDF_020_书页008.png",
+      "sha256": "fa3c23383a26b2316842e0087af854eb996c629091d2d2595fb8b8fe314aac04"
+    },
+    {
+      "pdf_page": 21,
+      "book_page": 9,
+      "file": "真题/PDF原页/PDF_021_书页009.png",
+      "sha256": "da9e341d0c259af9fe64b492857f7156348ab1361d012f3f5fb09fec40436ec1"
+    },
+    {
+      "pdf_page": 22,
+      "book_page": 10,
+      "file": "真题/PDF原页/PDF_022_书页010.png",
+      "sha256": "cafe9df8741148f8f735a7639d2c804899d9e63563f966feca5c7f184ebd4f96"
+    },
+    {
+      "pdf_page": 23,
+      "book_page": 11,
+      "file": "真题/PDF原页/PDF_023_书页011.png",
+      "sha256": "9fee7ab8bca5e2ccc8ccf88608a66b054928bfad36005a8e3b1d82c341943fbd"
+    },
+    {
+      "pdf_page": 24,
+      "book_page": 12,
+      "file": "真题/PDF原页/PDF_024_书页012.png",
+      "sha256": "3b4f45e1a71eef7b3ec0517acecd944cbda1b7cedeca233aa02271d1a4e77a89"
+    },
+    {
+      "pdf_page": 25,
+      "book_page": 13,
+      "file": "真题/PDF原页/PDF_025_书页013.png",
+      "sha256": "74513b25353cca6b30fd78179e3ae8db5ea225241060d0085d0e837fd65aa0e6"
+    },
+    {
+      "pdf_page": 26,
+      "book_page": 14,
+      "file": "真题/PDF原页/PDF_026_书页014.png",
+      "sha256": "10bba7f011d6d5153f26c344e77dc15dca27f6d57026187eb72101bffaa7b242"
+    },
+    {
+      "pdf_page": 33,
+      "book_page": 21,
+      "file": "真题/PDF原页/PDF_033_书页021.png",
+      "sha256": "0dfeff1ca7ac67d229cf7c2b385ceddd1cbf3a418772f5ea603a32f5c48f6f48"
+    },
+    {
+      "pdf_page": 34,
+      "book_page": 22,
+      "file": "真题/PDF原页/PDF_034_书页022.png",
+      "sha256": "b0d9c5783f4ce519abc5b6db7bb2b2efd5523b75f87a6d0cc366b1174cd6edbb"
+    },
+    {
+      "pdf_page": 35,
+      "book_page": 23,
+      "file": "真题/PDF原页/PDF_035_书页023.png",
+      "sha256": "6b0055118ed21723bf1e3d0e97b253a195f4d8753b6ced922afbfd4f59df0f6f"
+    },
+    {
+      "pdf_page": 36,
+      "book_page": 24,
+      "file": "真题/PDF原页/PDF_036_书页024.png",
+      "sha256": "27e1c261058c0530d3d4d6e8b769e71e807c76218975c8d66633d9155d8d73f9"
+    },
+    {
+      "pdf_page": 37,
+      "book_page": 25,
+      "file": "真题/PDF原页/PDF_037_书页025.png",
+      "sha256": "0046c82853eaa120a6dcf99a58a4e25f503a973163443c6428f12e24e6057644"
+    },
+    {
+      "pdf_page": 38,
+      "book_page": 26,
+      "file": "真题/PDF原页/PDF_038_书页026.png",
+      "sha256": "c938368d1970e16ce104373e0f3794619bf9ad23522fee006f84b0a71d0df989"
+    },
+    {
+      "pdf_page": 39,
+      "book_page": 27,
+      "file": "真题/PDF原页/PDF_039_书页027.png",
+      "sha256": "9fa72b2e917455153a524303362bf48386a3055dfc1e418045c61397b865ad94"
+    },
+    {
+      "pdf_page": 40,
+      "book_page": 28,
+      "file": "真题/PDF原页/PDF_040_书页028.png",
+      "sha256": "c938abcdc6dd66c1636d72fb6949e3d6c5b12e4f5e7b9861a6cc4472f7afbe80"
+    },
+    {
+      "pdf_page": 42,
+      "book_page": 30,
+      "file": "真题/PDF原页/PDF_042_书页030.png",
+      "sha256": "850185f1194e94e6738673423a82ddef0b748de7d4406f351ad42ada6ebd3faf"
+    },
+    {
+      "pdf_page": 47,
+      "book_page": 35,
+      "file": "真题/PDF原页/PDF_047_书页035.png",
+      "sha256": "625f551834b98dff0fa493e8ef0c94ed073481e76c6d5bd449d0c1f6092d6840"
+    },
+    {
+      "pdf_page": 48,
+      "book_page": 36,
+      "file": "真题/PDF原页/PDF_048_书页036.png",
+      "sha256": "2ee836853f49cb0cdb5440438989c79f9be8e88f4cf9c286ff45bac14c05490c"
+    },
+    {
+      "pdf_page": 49,
+      "book_page": 37,
+      "file": "真题/PDF原页/PDF_049_书页037.png",
+      "sha256": "e59526cdc86cf53004d132feb02b13da0e5f21dd5c789bdae73c1c1b14716a6b"
+    },
+    {
+      "pdf_page": 50,
+      "book_page": 38,
+      "file": "真题/PDF原页/PDF_050_书页038.png",
+      "sha256": "77cf0466310588858d3debfc2dd6a430a959b28838c2259b511c54ea647b7d5e"
+    },
+    {
+      "pdf_page": 51,
+      "book_page": 39,
+      "file": "真题/PDF原页/PDF_051_书页039.png",
+      "sha256": "d4c677aa46cb87d2b9b0c2c87cb69554b5794ca3496adbaee61b90b779d12c2f"
+    },
+    {
+      "pdf_page": 52,
+      "book_page": 40,
+      "file": "真题/PDF原页/PDF_052_书页040.png",
+      "sha256": "ce1cfcf0ec6a3b5d4c28bb2896cf8e47efb172c850eedb8ebece09704264128c"
+    },
+    {
+      "pdf_page": 53,
+      "book_page": 41,
+      "file": "真题/PDF原页/PDF_053_书页041.png",
+      "sha256": "4eb493ee6e52b9bf174e9dea52ba404c929d227b9de4618cdccbb94bacb8ba79"
+    },
+    {
+      "pdf_page": 56,
+      "book_page": 44,
+      "file": "真题/PDF原页/PDF_056_书页044.png",
+      "sha256": "aff3857834a8d35de3c9438479e094ac9544fb5f589c85f184326c4c2a510c71"
+    },
+    {
+      "pdf_page": 57,
+      "book_page": 45,
+      "file": "真题/PDF原页/PDF_057_书页045.png",
+      "sha256": "6cf037dc6c3e7bf9eeeffef28d554630e5b383b9d56be96f2681bb31e7b33144"
+    },
+    {
+      "pdf_page": 58,
+      "book_page": 46,
+      "file": "真题/PDF原页/PDF_058_书页046.png",
+      "sha256": "4fe6ad0feb26a1543fd0a9b9c4c4da74a6daa6558bef428fffb3ee10c4271312"
+    },
+    {
+      "pdf_page": 68,
+      "book_page": 56,
+      "file": "真题/PDF原页/PDF_068_书页056.png",
+      "sha256": "9e0b24e5cd5484497a243898227a3dfd1388e8617c6ef8e36da63738711cf004"
+    },
+    {
+      "pdf_page": 69,
+      "book_page": 57,
+      "file": "真题/PDF原页/PDF_069_书页057.png",
+      "sha256": "11cf593c3e09601c7423e88fa307ac5a83a7c3e7620e3638fc664382573c01a4"
+    },
+    {
+      "pdf_page": 72,
+      "book_page": 60,
+      "file": "真题/PDF原页/PDF_072_书页060.png",
+      "sha256": "47ecf2df8145d91c0a85f5ee93c391c6ce7318aba388af3f51232c188111fa95"
+    },
+    {
+      "pdf_page": 73,
+      "book_page": 61,
+      "file": "真题/PDF原页/PDF_073_书页061.png",
+      "sha256": "4e76eed9fe50fe23a70a308cc44a166d030b612f13426e4e1964d7292aaaed61"
+    },
+    {
+      "pdf_page": 74,
+      "book_page": 62,
+      "file": "真题/PDF原页/PDF_074_书页062.png",
+      "sha256": "4a75794e4b165364a13b6764f4c0c8bd4bc89ab7cb7608e59837a4f80d448fec"
+    },
+    {
+      "pdf_page": 80,
+      "book_page": 68,
+      "file": "真题/PDF原页/PDF_080_书页068.png",
+      "sha256": "748378d42fa5682486706bd6e15d58e9f3c82b558b10206dfe3e8fa4c96a1020"
+    },
+    {
+      "pdf_page": 81,
+      "book_page": 69,
+      "file": "真题/PDF原页/PDF_081_书页069.png",
+      "sha256": "39783e3cd922611e0b5214b554cb4780a81c5e08461f984729092047d8ba1911"
+    },
+    {
+      "pdf_page": 82,
+      "book_page": 70,
+      "file": "真题/PDF原页/PDF_082_书页070.png",
+      "sha256": "88073db4f9cac9d544164bbac0afca1663c67539d0b6c36d04782dc3fbe010a4"
+    },
+    {
+      "pdf_page": 83,
+      "book_page": 71,
+      "file": "真题/PDF原页/PDF_083_书页071.png",
+      "sha256": "e10144cc948d60cd3a3ddd34c01f8796382383149763f00e92510ef9afe444d5"
+    },
+    {
+      "pdf_page": 84,
+      "book_page": 72,
+      "file": "真题/PDF原页/PDF_084_书页072.png",
+      "sha256": "8928284136a415005cc6427ce67c12e8dfb6ec3b8a617b54c8fe23b471cba4c5"
+    },
+    {
+      "pdf_page": 85,
+      "book_page": 73,
+      "file": "真题/PDF原页/PDF_085_书页073.png",
+      "sha256": "6f40ad6e731a525ebe8e84a8d660a8bd02caf520935e2afebb58d5bec9f5a4d6"
+    },
+    {
+      "pdf_page": 86,
+      "book_page": 74,
+      "file": "真题/PDF原页/PDF_086_书页074.png",
+      "sha256": "b50347188b5ffe7df206adc275f3ddceac72bfc9e72ac93419969fdbb690eec4"
+    },
+    {
+      "pdf_page": 87,
+      "book_page": 75,
+      "file": "真题/PDF原页/PDF_087_书页075.png",
+      "sha256": "8cc09959d6fc36d90598e610c05493158bc56cd9e31f6b88433c70ae6cdc9069"
+    },
+    {
+      "pdf_page": 88,
+      "book_page": 76,
+      "file": "真题/PDF原页/PDF_088_书页076.png",
+      "sha256": "6667118f1f221a52799aa4cb4825323ec4ef8d2c51da5c807c002352b8d79e15"
+    },
+    {
+      "pdf_page": 89,
+      "book_page": 77,
+      "file": "真题/PDF原页/PDF_089_书页077.png",
+      "sha256": "6bdcd2863204178e80186cf3939a2822e9e3327a3be2b7252624e37b154b5602"
+    },
+    {
+      "pdf_page": 90,
+      "book_page": 78,
+      "file": "真题/PDF原页/PDF_090_书页078.png",
+      "sha256": "38c580d627f2f8858e67f87d7876054bb10dae79d6f8091b0ebf71451425b021"
+    },
+    {
+      "pdf_page": 100,
+      "book_page": 88,
+      "file": "真题/PDF原页/PDF_100_书页088.png",
+      "sha256": "44e69930e3bdd8e319b8e999ebb8f23ea3bf2d28a66be1251905ab3dac2109f3"
+    },
+    {
+      "pdf_page": 101,
+      "book_page": 89,
+      "file": "真题/PDF原页/PDF_101_书页089.png",
+      "sha256": "453abee6508f01a2c900d067ba1dbbc8125da3270f69346a6516fb204d4933f9"
+    },
+    {
+      "pdf_page": 102,
+      "book_page": 90,
+      "file": "真题/PDF原页/PDF_102_书页090.png",
+      "sha256": "0e0542de6a424b63c24634068e6c0985744d3217e8bb6e9eb7fb86b9324b7603"
+    },
+    {
+      "pdf_page": 103,
+      "book_page": 91,
+      "file": "真题/PDF原页/PDF_103_书页091.png",
+      "sha256": "059c9648aee720696c1d80d3c801a2ed6aba48e4441f9d65af02ddf3e34dd0c4"
+    },
+    {
+      "pdf_page": 104,
+      "book_page": 92,
+      "file": "真题/PDF原页/PDF_104_书页092.png",
+      "sha256": "4aecba2ca6e732165ee34d8017c4016fdfe2b82c43fb1a30c9538312c8ad444a"
+    },
+    {
+      "pdf_page": 105,
+      "book_page": 93,
+      "file": "真题/PDF原页/PDF_105_书页093.png",
+      "sha256": "dcff2d9a877c20c8b54a4fb697ded5e6a53962d53a4476ce43b188189a4614f1"
+    },
+    {
+      "pdf_page": 106,
+      "book_page": 94,
+      "file": "真题/PDF原页/PDF_106_书页094.png",
+      "sha256": "a1f5c47bb90761a920b1be9aad7f139af9d87d83c885f1ed5760aa3fd5c6751d"
+    },
+    {
+      "pdf_page": 107,
+      "book_page": 95,
+      "file": "真题/PDF原页/PDF_107_书页095.png",
+      "sha256": "a733af60cb18b652f9d507590af17b5fc1204699b23646972d254794abd47469"
+    },
+    {
+      "pdf_page": 108,
+      "book_page": 96,
+      "file": "真题/PDF原页/PDF_108_书页096.png",
+      "sha256": "eab0421209096a98985f43497bcbd95cb3c6575aad14ece258d5fab35dc10a9a"
+    },
+    {
+      "pdf_page": 109,
+      "book_page": 97,
+      "file": "真题/PDF原页/PDF_109_书页097.png",
+      "sha256": "bfd76afc338ab3cd00971fc1eaf166b238b1675925bfda1bf4da4a528fb24806"
+    },
+    {
+      "pdf_page": 110,
+      "book_page": 98,
+      "file": "真题/PDF原页/PDF_110_书页098.png",
+      "sha256": "154f4fed78190b9c9f1c0de541f7778fa44dc218f6ad2f5b984365254a3da9ce"
+    },
+    {
+      "pdf_page": 111,
+      "book_page": 99,
+      "file": "真题/PDF原页/PDF_111_书页099.png",
+      "sha256": "1923fe85f91cd21949053af7ff5c795ddc0afec523ccf6d74661b5bc53410778"
+    },
+    {
+      "pdf_page": 120,
+      "book_page": 108,
+      "file": "真题/PDF原页/PDF_120_书页108.png",
+      "sha256": "dfea46f2aee193805e338cabdc8287df186c46f8301ef82f93892f16208fe4ab"
+    },
+    {
+      "pdf_page": 121,
+      "book_page": 109,
+      "file": "真题/PDF原页/PDF_121_书页109.png",
+      "sha256": "e0e36d9cbfa0957c1d8ced30ff1a15ce93df95f80c3c982d1fe54c12758d6dce"
+    },
+    {
+      "pdf_page": 122,
+      "book_page": 110,
+      "file": "真题/PDF原页/PDF_122_书页110.png",
+      "sha256": "287fee48acc903f89352d14c2ea6fa59e87933801a4d8d60607bf5f6f422978b"
+    },
+    {
+      "pdf_page": 123,
+      "book_page": 111,
+      "file": "真题/PDF原页/PDF_123_书页111.png",
+      "sha256": "16fcfe103f1c5490e74685a6e2fef596a08c01167a4202d48f73ac46fbae6c98"
+    },
+    {
+      "pdf_page": 124,
+      "book_page": 112,
+      "file": "真题/PDF原页/PDF_124_书页112.png",
+      "sha256": "5afc58b98758639c303a909911a95170b0860998c15acc5dc79233221a398b75"
+    },
+    {
+      "pdf_page": 125,
+      "book_page": 113,
+      "file": "真题/PDF原页/PDF_125_书页113.png",
+      "sha256": "5c1e5d82edb271450644aebfaf993ed9c6049fa7fa0a7476e79a87bf77cfe650"
+    },
+    {
+      "pdf_page": 132,
+      "book_page": 120,
+      "file": "真题/PDF原页/PDF_132_书页120.png",
+      "sha256": "ca7125466b39cf399466efc5882be95ea7899cad1785b7e28bdc463298d23c31"
+    },
+    {
+      "pdf_page": 133,
+      "book_page": 121,
+      "file": "真题/PDF原页/PDF_133_书页121.png",
+      "sha256": "c61fef43212870fdfef1028bcf41979036f2ccb8eaa10dcdb69baa32982ee7ab"
+    },
+    {
+      "pdf_page": 134,
+      "book_page": 122,
+      "file": "真题/PDF原页/PDF_134_书页122.png",
+      "sha256": "1aae87b5101e35f0c7e9712a447d3e81f7323b0b6b0dd0c17347bc55435ada4e"
+    },
+    {
+      "pdf_page": 135,
+      "book_page": 123,
+      "file": "真题/PDF原页/PDF_135_书页123.png",
+      "sha256": "d895363353ca5e9befdacb83301ed17af30bfa5fb74d58c5998f89c3ce0271b9"
+    },
+    {
+      "pdf_page": 136,
+      "book_page": 124,
+      "file": "真题/PDF原页/PDF_136_书页124.png",
+      "sha256": "aaa11acfd9165d556deda57e8eabe665e627d3f54bc6865fc8a25da8e3a079fc"
+    },
+    {
+      "pdf_page": 144,
+      "book_page": 132,
+      "file": "真题/PDF原页/PDF_144_书页132.png",
+      "sha256": "3733ad35565179999946fcd0f05295a5fadc28b8feb254e6aed38369bd2094f3"
+    },
+    {
+      "pdf_page": 145,
+      "book_page": 133,
+      "file": "真题/PDF原页/PDF_145_书页133.png",
+      "sha256": "883aeb41e871dcb8c5d80d3fedc44a4b30dd0b9939878cc84dd3447ca1607196"
+    },
+    {
+      "pdf_page": 146,
+      "book_page": 134,
+      "file": "真题/PDF原页/PDF_146_书页134.png",
+      "sha256": "2101b40eb3c6b5fa9ff784cbaa8f33309c7d03da7c95a9e40f476038a96f483f"
+    },
+    {
+      "pdf_page": 147,
+      "book_page": 135,
+      "file": "真题/PDF原页/PDF_147_书页135.png",
+      "sha256": "8fc6c67ee1527ddb44a50c0c5ceef25ae879e34e1e959e6fcde159ffdd31955a"
+    },
+    {
+      "pdf_page": 148,
+      "book_page": 136,
+      "file": "真题/PDF原页/PDF_148_书页136.png",
+      "sha256": "9ac4698fde4a8bdd5aa30dd20d98a9d98ad530303fd4ee4daff2d38854ee0966"
+    },
+    {
+      "pdf_page": 162,
+      "book_page": 150,
+      "file": "真题/PDF原页/PDF_162_书页150.png",
+      "sha256": "23a97370665081009c3e69e8fbd582191f1716c46632512eab1fd06ccb5e9313"
+    },
+    {
+      "pdf_page": 163,
+      "book_page": 151,
+      "file": "真题/PDF原页/PDF_163_书页151.png",
+      "sha256": "d74a85b5b4208b3700c3d813bed64fc12e242f21ea5e01fb2b6d4ae46fe91517"
+    },
+    {
+      "pdf_page": 164,
+      "book_page": 152,
+      "file": "真题/PDF原页/PDF_164_书页152.png",
+      "sha256": "1c30253e5a12b8681892be2b7603e0802d788bdc4d99c36ffa3929d0d0eff7a7"
+    },
+    {
+      "pdf_page": 165,
+      "book_page": 153,
+      "file": "真题/PDF原页/PDF_165_书页153.png",
+      "sha256": "13aeea8981e4f29bb5d040436c56c6a4ad0cd646b4d08adc433370a4636eac58"
+    },
+    {
+      "pdf_page": 166,
+      "book_page": 154,
+      "file": "真题/PDF原页/PDF_166_书页154.png",
+      "sha256": "936faa789123180589bb43204add7b97d12de86a19ec8e91a8874bb21a22c91f"
+    },
+    {
+      "pdf_page": 167,
+      "book_page": 155,
+      "file": "真题/PDF原页/PDF_167_书页155.png",
+      "sha256": "bd26b675b51fd3a44c303c92806e9b6bddb899e489b98f99e25d5c7bb401f1ba"
+    },
+    {
+      "pdf_page": 168,
+      "book_page": 156,
+      "file": "真题/PDF原页/PDF_168_书页156.png",
+      "sha256": "6bf9e1ea7bbdbcac7db7f2858af678958ccbd6811abd80840af27d2251a45009"
+    },
+    {
+      "pdf_page": 169,
+      "book_page": 157,
+      "file": "真题/PDF原页/PDF_169_书页157.png",
+      "sha256": "dd9d07ba782c9606318b4d4f96814616bce0eea4189cbdd5ae97830365fdd2f3"
+    },
+    {
+      "pdf_page": 170,
+      "book_page": 158,
+      "file": "真题/PDF原页/PDF_170_书页158.png",
+      "sha256": "a69f09dfe885e9167bf3ec798f8d824106842b0e3844f02a67b33471296650ae"
+    },
+    {
+      "pdf_page": 171,
+      "book_page": 159,
+      "file": "真题/PDF原页/PDF_171_书页159.png",
+      "sha256": "08ba1a93f207c813d87a1a90e16de1f630ab4b4829c7f0ea854697ece8c04a74"
+    },
+    {
+      "pdf_page": 172,
+      "book_page": 160,
+      "file": "真题/PDF原页/PDF_172_书页160.png",
+      "sha256": "95cf8be642c4ad229c1072cbf905d9d0f5f98137d000ef938fbbd4cc133e4311"
+    },
+    {
+      "pdf_page": 173,
+      "book_page": 161,
+      "file": "真题/PDF原页/PDF_173_书页161.png",
+      "sha256": "99c9d141a86a1ca152e60d9573b208561e2fc772e1d15771b668c449df368e0a"
+    },
+    {
+      "pdf_page": 174,
+      "book_page": 162,
+      "file": "真题/PDF原页/PDF_174_书页162.png",
+      "sha256": "8ba1976b124d806397917aaccd2ad1e62a40c274c0f7ed3975399981ef26bf22"
+    },
+    {
+      "pdf_page": 175,
+      "book_page": 163,
+      "file": "真题/PDF原页/PDF_175_书页163.png",
+      "sha256": "e935f9179b8139cd4141e29e9ab463ea2ce73c5315710a247fd3f669ed8cb5c3"
+    },
+    {
+      "pdf_page": 176,
+      "book_page": 164,
+      "file": "真题/PDF原页/PDF_176_书页164.png",
+      "sha256": "d3bbfabd9f0f299d082b1a664c460ee77d593363ad5c2279ece50041aa3099cb"
+    },
+    {
+      "pdf_page": 177,
+      "book_page": 165,
+      "file": "真题/PDF原页/PDF_177_书页165.png",
+      "sha256": "40667ddb72e0b191b1f88640f27514bd6f3bedb58f81047a2af2a003f880a1e2"
+    },
+    {
+      "pdf_page": 178,
+      "book_page": 166,
+      "file": "真题/PDF原页/PDF_178_书页166.png",
+      "sha256": "db58dcdf1e48e83f99f0059cfa64ec9d0aa6f543b3ec0ac56d2b925e55aebe89"
+    },
+    {
+      "pdf_page": 179,
+      "book_page": 167,
+      "file": "真题/PDF原页/PDF_179_书页167.png",
+      "sha256": "88056275eac6982641fc6b101a214eb4687a0fe1661da71bd7e3a2d7673cde97"
+    },
+    {
+      "pdf_page": 180,
+      "book_page": 168,
+      "file": "真题/PDF原页/PDF_180_书页168.png",
+      "sha256": "83bd05169e187a4a95bb42118f5f799030cb3cc6047f99676ce82c8cf51ebeda"
+    },
+    {
+      "pdf_page": 181,
+      "book_page": 169,
+      "file": "真题/PDF原页/PDF_181_书页169.png",
+      "sha256": "90f28a5c3cb8aee44924c304667b07c82c84fb73903156373cd80475cb7a8c81"
+    },
+    {
+      "pdf_page": 182,
+      "book_page": 170,
+      "file": "真题/PDF原页/PDF_182_书页170.png",
+      "sha256": "c69c10e7bbb726f4a78be7054aa7a0f74302b5e3151c2d67e95188e8bc2dadbe"
+    },
+    {
+      "pdf_page": 183,
+      "book_page": 171,
+      "file": "真题/PDF原页/PDF_183_书页171.png",
+      "sha256": "25a82a6d326126556cc9dab1df76e4cc85dd0f888f6738fde9248263d2c5d6ff"
+    },
+    {
+      "pdf_page": 184,
+      "book_page": 172,
+      "file": "真题/PDF原页/PDF_184_书页172.png",
+      "sha256": "36fff37c4bb0728639ba57f97cdaf23d704e122f8b50dfa2dd8da59c96d8a262"
+    },
+    {
+      "pdf_page": 185,
+      "book_page": 173,
+      "file": "真题/PDF原页/PDF_185_书页173.png",
+      "sha256": "15c2982af0a761ba5c4570da257eb4a72d0effb8882a8989a260bce16a38fdb5"
+    },
+    {
+      "pdf_page": 186,
+      "book_page": 174,
+      "file": "真题/PDF原页/PDF_186_书页174.png",
+      "sha256": "e22f355cf69fc4e496b5c6cd8d5c5a1e70ec71c441a1333762267fe4f79e6ab2"
+    },
+    {
+      "pdf_page": 187,
+      "book_page": 175,
+      "file": "真题/PDF原页/PDF_187_书页175.png",
+      "sha256": "3dbaf9c52f03f24e823afea324fc81c451f1299ecb74705730edfed4958d8da7"
+    },
+    {
+      "pdf_page": 188,
+      "book_page": 176,
+      "file": "真题/PDF原页/PDF_188_书页176.png",
+      "sha256": "ab121371af0c935e007cc1923296a1a98057ba3d95c05f036536f87c3697c3d2"
+    },
+    {
+      "pdf_page": 189,
+      "book_page": 177,
+      "file": "真题/PDF原页/PDF_189_书页177.png",
+      "sha256": "fcb4adb26e902433c5d2a5e95831b8ca72f178391d594013d5deed2238793a7e"
+    },
+    {
+      "pdf_page": 190,
+      "book_page": 178,
+      "file": "真题/PDF原页/PDF_190_书页178.png",
+      "sha256": "d32f07f9faf60b067b480173cfdbfd3354625b387b6a393f2b970f864241d6f5"
+    },
+    {
+      "pdf_page": 193,
+      "book_page": 181,
+      "file": "真题/PDF原页/PDF_193_书页181.png",
+      "sha256": "541551272697eaa12cf7d6e52bf81f9ef5a1b87aeee15f2434ee1ae01c171aec"
+    },
+    {
+      "pdf_page": 194,
+      "book_page": 182,
+      "file": "真题/PDF原页/PDF_194_书页182.png",
+      "sha256": "1ffa348698fe3b995978ec7acfd7f6781a15fefc69546f0b9b28cd89f53f773f"
+    },
+    {
+      "pdf_page": 195,
+      "book_page": 183,
+      "file": "真题/PDF原页/PDF_195_书页183.png",
+      "sha256": "2aa045dea804b4462037beb1da8b0361c973da68d3fc2ea00f0cdd53cef0c7d3"
+    },
+    {
+      "pdf_page": 205,
+      "book_page": 193,
+      "file": "真题/PDF原页/PDF_205_书页193.png",
+      "sha256": "5d2ea73a06c33863beba6ffb154ae63ef6a2941c3af734e52b4d418bce185257"
+    },
+    {
+      "pdf_page": 206,
+      "book_page": 194,
+      "file": "真题/PDF原页/PDF_206_书页194.png",
+      "sha256": "6903de64db32d1ab4f9db56bccd74d6a35f424f9ff3dd1b0e50be146f5b08dc6"
+    },
+    {
+      "pdf_page": 207,
+      "book_page": 195,
+      "file": "真题/PDF原页/PDF_207_书页195.png",
+      "sha256": "5fc8ad95a423698b075cf71a6a2aca0ad18baf60235e9c438a8141b4cf9f42f4"
+    },
+    {
+      "pdf_page": 208,
+      "book_page": 196,
+      "file": "真题/PDF原页/PDF_208_书页196.png",
+      "sha256": "509973f0d58ce9e3784dea2a9871ae3db982b229e6fef071db48bcb3cfa31af2"
+    },
+    {
+      "pdf_page": 209,
+      "book_page": 197,
+      "file": "真题/PDF原页/PDF_209_书页197.png",
+      "sha256": "dd87b7edaa8cac705160977d9b35fdb57c96fa0caa0d5929b3bae242380d5643"
+    },
+    {
+      "pdf_page": 210,
+      "book_page": 198,
+      "file": "真题/PDF原页/PDF_210_书页198.png",
+      "sha256": "d1927c891662148d4652e39e48c91f0aad6e30e6e0a2c494f43dc8abcb111b5e"
+    },
+    {
+      "pdf_page": 211,
+      "book_page": 199,
+      "file": "真题/PDF原页/PDF_211_书页199.png",
+      "sha256": "973d85375699c92156660357f889b64e9a3f17bb4c6680681b45f44b2ca0ab29"
+    },
+    {
+      "pdf_page": 212,
+      "book_page": 200,
+      "file": "真题/PDF原页/PDF_212_书页200.png",
+      "sha256": "38634ab035712a77a0635994886763123352b3379879812b2ec4d8f526102cd4"
+    },
+    {
+      "pdf_page": 213,
+      "book_page": 201,
+      "file": "真题/PDF原页/PDF_213_书页201.png",
+      "sha256": "06a6b7cd382344252e39f4bc1370c2ca265f0522dc0cf7c2c59a43c368468997"
+    },
+    {
+      "pdf_page": 214,
+      "book_page": 202,
+      "file": "真题/PDF原页/PDF_214_书页202.png",
+      "sha256": "6bda49b42b74ecc9c3cdfe83d1775bc7bc9bc3e851e6a50ee11861ee4f51912b"
+    },
+    {
+      "pdf_page": 215,
+      "book_page": 203,
+      "file": "真题/PDF原页/PDF_215_书页203.png",
+      "sha256": "c1b3dc44ac1cd8931d0f8fc6943964a37aed99ed112a42b967dc589fe327299f"
+    },
+    {
+      "pdf_page": 216,
+      "book_page": 204,
+      "file": "真题/PDF原页/PDF_216_书页204.png",
+      "sha256": "97f5c8a64025a172ef3f1cc1b9cc48a4f71f69e720af9297af0bf034ab593ec9"
+    },
+    {
+      "pdf_page": 217,
+      "book_page": 205,
+      "file": "真题/PDF原页/PDF_217_书页205.png",
+      "sha256": "fa41322c336868d3c231a4c2aa19b17852fc6aae1f6bf327389462fcdf6a678a"
+    },
+    {
+      "pdf_page": 225,
+      "book_page": 213,
+      "file": "真题/PDF原页/PDF_225_书页213.png",
+      "sha256": "8b67580eb32709d37b8cadae93cd0e2be8928f93d7dcd5bdc8179a5e23863fc3"
+    },
+    {
+      "pdf_page": 226,
+      "book_page": 214,
+      "file": "真题/PDF原页/PDF_226_书页214.png",
+      "sha256": "0acdb860bcbdd9a7b8d89f1f6e6bc623dd68fcd053e435e783c375ed0d31060c"
+    },
+    {
+      "pdf_page": 227,
+      "book_page": 215,
+      "file": "真题/PDF原页/PDF_227_书页215.png",
+      "sha256": "d7dbc678e3d376471db6a6c658ab49d34e420a8755ba58e33d2fe63ad93d475d"
+    },
+    {
+      "pdf_page": 228,
+      "book_page": 216,
+      "file": "真题/PDF原页/PDF_228_书页216.png",
+      "sha256": "a128d62412bf47a967e59c258708650e7e687be9e9c1a3e11199d369fc2633b2"
+    },
+    {
+      "pdf_page": 229,
+      "book_page": 217,
+      "file": "真题/PDF原页/PDF_229_书页217.png",
+      "sha256": "52cd7ff28a1cd84b85ee38ee4fbd38d32e9e39661011d4f50eab056851a66e43"
+    },
+    {
+      "pdf_page": 230,
+      "book_page": 218,
+      "file": "真题/PDF原页/PDF_230_书页218.png",
+      "sha256": "29e12479be7da2e49a6087c0a8e2932eb9f24e43bce7aa267af58bb900d0f01c"
+    },
+    {
+      "pdf_page": 231,
+      "book_page": 219,
+      "file": "真题/PDF原页/PDF_231_书页219.png",
+      "sha256": "9a6be4609693acbde0105ab449aaf2aa19c2a3f4616ccf0327385837dc422b0f"
+    },
+    {
+      "pdf_page": 232,
+      "book_page": 220,
+      "file": "真题/PDF原页/PDF_232_书页220.png",
+      "sha256": "d3f675190e4e7a010ee6141038d5873ad16d6e092c08b81f96bc9d1f1839979c"
+    },
+    {
+      "pdf_page": 240,
+      "book_page": 228,
+      "file": "真题/PDF原页/PDF_240_书页228.png",
+      "sha256": "3eb6dd88556f401293856ab9e11da9c7e0065e1aacde3c0e4660cba5fe115136"
+    },
+    {
+      "pdf_page": 241,
+      "book_page": 229,
+      "file": "真题/PDF原页/PDF_241_书页229.png",
+      "sha256": "5cdd3927455291f57ee536cbb5b88ad9f01e70d1eef79035504582e1ded625bb"
+    },
+    {
+      "pdf_page": 242,
+      "book_page": 230,
+      "file": "真题/PDF原页/PDF_242_书页230.png",
+      "sha256": "b1bd2bd9b334a5df08fcad59a3f8150655d270c3094d8c509f6d3af01b0756f0"
+    },
+    {
+      "pdf_page": 243,
+      "book_page": 231,
+      "file": "真题/PDF原页/PDF_243_书页231.png",
+      "sha256": "7c4e8ed00faec574a5d45d6395f7eb4ad6163b4b9a0050afa60272b2f4e5d1a1"
+    },
+    {
+      "pdf_page": 244,
+      "book_page": 232,
+      "file": "真题/PDF原页/PDF_244_书页232.png",
+      "sha256": "f47cb7e2c2d1de76248b5ae73b502da286779e989a04e116d4cf87c30ff249bb"
+    },
+    {
+      "pdf_page": 245,
+      "book_page": 233,
+      "file": "真题/PDF原页/PDF_245_书页233.png",
+      "sha256": "37a48087ae08633763457d15153f64dcf1da3f807dddf126e0d997a1281d25ad"
+    },
+    {
+      "pdf_page": 254,
+      "book_page": 242,
+      "file": "真题/PDF原页/PDF_254_书页242.png",
+      "sha256": "e9455e9b664651909ba7f1d37c7ab7a5bbd37d80710b7d522fe9b13d36bb650f"
+    },
+    {
+      "pdf_page": 255,
+      "book_page": 243,
+      "file": "真题/PDF原页/PDF_255_书页243.png",
+      "sha256": "b4c043854ab69e0710bc5282f1109f6bed04386716466366d48f684efb443b9e"
+    },
+    {
+      "pdf_page": 256,
+      "book_page": 244,
+      "file": "真题/PDF原页/PDF_256_书页244.png",
+      "sha256": "f54b7717513b88e68bc0cf4c0b0f0279dfc92ab09d384bba7d4de513907f05c9"
+    },
+    {
+      "pdf_page": 257,
+      "book_page": 245,
+      "file": "真题/PDF原页/PDF_257_书页245.png",
+      "sha256": "84d0ddd2595399448116a053bb200ecd8302d2cdc495ffb0c3dc97d20e090cc7"
+    },
+    {
+      "pdf_page": 258,
+      "book_page": 246,
+      "file": "真题/PDF原页/PDF_258_书页246.png",
+      "sha256": "69320e15aaf74e4f4fdc3d3466a70944c5bea9e9cf01be9f188dd3a273d88257"
+    },
+    {
+      "pdf_page": 259,
+      "book_page": 247,
+      "file": "真题/PDF原页/PDF_259_书页247.png",
+      "sha256": "10fce468a00ad18a3de5951c2a22ec73d8592b3ad93f63e4d4af287e63921bef"
+    },
+    {
+      "pdf_page": 260,
+      "book_page": 248,
+      "file": "真题/PDF原页/PDF_260_书页248.png",
+      "sha256": "7c43920d65a4a40ee93cd6f3e3fa5f1cd7d7115b9734ccedd0fd400cdfd51c50"
+    },
+    {
+      "pdf_page": 261,
+      "book_page": 249,
+      "file": "真题/PDF原页/PDF_261_书页249.png",
+      "sha256": "8e810964cbe800d894402576fbb334da09219ccd4b70556feee6f360d91eacb3"
+    },
+    {
+      "pdf_page": 262,
+      "book_page": 250,
+      "file": "真题/PDF原页/PDF_262_书页250.png",
+      "sha256": "549883055054813c6267f17bd4d2d8e097eca9d3c538aaf9d0af8fc7c947af66"
+    },
+    {
+      "pdf_page": 263,
+      "book_page": 251,
+      "file": "真题/PDF原页/PDF_263_书页251.png",
+      "sha256": "27ac3df1ea036ccc2d2fd7c2dea5464534f00e22d7c01bcad6ac57ff508adec2"
+    },
+    {
+      "pdf_page": 264,
+      "book_page": 252,
+      "file": "真题/PDF原页/PDF_264_书页252.png",
+      "sha256": "df9a4fdf56ecfd959c2f7e258fc18939546271e4cb4886eae403cdbf83b034ab"
+    },
+    {
+      "pdf_page": 265,
+      "book_page": 253,
+      "file": "真题/PDF原页/PDF_265_书页253.png",
+      "sha256": "f7a698906afa6158f24b8c0df7b5ae8ddae2ff959270b31499be27a527e931e1"
+    },
+    {
+      "pdf_page": 266,
+      "book_page": 254,
+      "file": "真题/PDF原页/PDF_266_书页254.png",
+      "sha256": "3f740804292908b2e8748f504b739e510b87b523a72c5d6bc282f114d30fafa9"
+    },
+    {
+      "pdf_page": 267,
+      "book_page": 255,
+      "file": "真题/PDF原页/PDF_267_书页255.png",
+      "sha256": "8d6aae231558ddb0ed246713fe15c82d2a316ad832e65345d6554de3a2ec5dec"
+    },
+    {
+      "pdf_page": 268,
+      "book_page": 256,
+      "file": "真题/PDF原页/PDF_268_书页256.png",
+      "sha256": "5e96557e70c9047ba606614726fe368d76952670fa0e166b02326fd5efd55824"
+    },
+    {
+      "pdf_page": 269,
+      "book_page": 257,
+      "file": "真题/PDF原页/PDF_269_书页257.png",
+      "sha256": "407249be01233dfc6c1dd9d14069d0e5a81f8412b4b6039bf083d715195849cb"
+    },
+    {
+      "pdf_page": 270,
+      "book_page": 258,
+      "file": "真题/PDF原页/PDF_270_书页258.png",
+      "sha256": "2d08a15b45c595664068e0759012a9e8881ce6ed0a82be0ead4f2d779294e8e5"
+    },
+    {
+      "pdf_page": 271,
+      "book_page": 259,
+      "file": "真题/PDF原页/PDF_271_书页259.png",
+      "sha256": "66d4b310c4d93616350afd9684ef6805cac7a98d8c3e09f36991c93b0eb10c0e"
+    },
+    {
+      "pdf_page": 272,
+      "book_page": 260,
+      "file": "真题/PDF原页/PDF_272_书页260.png",
+      "sha256": "198f74554a64d07a40425d112793e7e83bba89976ecd38368918ee0bf42f8504"
+    },
+    {
+      "pdf_page": 273,
+      "book_page": 261,
+      "file": "真题/PDF原页/PDF_273_书页261.png",
+      "sha256": "bc05a40cd204bcb46da83589e6857d6e3d75b567668006833ab906876d38b6c9"
+    },
+    {
+      "pdf_page": 276,
+      "book_page": 264,
+      "file": "真题/PDF原页/PDF_276_书页264.png",
+      "sha256": "699f1b5ea918b85475bc35f588dec0702d368cdf08e47581776708844b6c210f"
+    },
+    {
+      "pdf_page": 277,
+      "book_page": 265,
+      "file": "真题/PDF原页/PDF_277_书页265.png",
+      "sha256": "1d06c5057058e0c472a9bafa927e83c95b53f1d5566d5e2371590c70161f7fc2"
+    },
+    {
+      "pdf_page": 278,
+      "book_page": 266,
+      "file": "真题/PDF原页/PDF_278_书页266.png",
+      "sha256": "3b38f2fde901ae6251d55a8805518228b58ddba6272121ea2e086455cca38f70"
+    },
+    {
+      "pdf_page": 281,
+      "book_page": 269,
+      "file": "真题/PDF原页/PDF_281_书页269.png",
+      "sha256": "aaf63bc17de2e979456982cc5a9ae946da7c04b30ea622d0209417ba429fd11a"
+    },
+    {
+      "pdf_page": 282,
+      "book_page": 270,
+      "file": "真题/PDF原页/PDF_282_书页270.png",
+      "sha256": "ed2993b36551fafb3cd47b09b7e4d16e1f69fd8e838ae216fbd1e57ba0fc18e2"
+    },
+    {
+      "pdf_page": 283,
+      "book_page": 271,
+      "file": "真题/PDF原页/PDF_283_书页271.png",
+      "sha256": "58a5cad0901f562e87409d729d0f252570d3cd5fce3bd95385ba1aa8ee26ce99"
+    },
+    {
+      "pdf_page": 284,
+      "book_page": 272,
+      "file": "真题/PDF原页/PDF_284_书页272.png",
+      "sha256": "981e32b5a468b6f860ec4e52928e16ee6f3c1dd2b9802d72d17bc0032e555c84"
+    },
+    {
+      "pdf_page": 285,
+      "book_page": 273,
+      "file": "真题/PDF原页/PDF_285_书页273.png",
+      "sha256": "ec6e95d4e8fad102cba08755fd9124fbac1dfadebb87482ec77e02161442da48"
+    },
+    {
+      "pdf_page": 287,
+      "book_page": 275,
+      "file": "真题/PDF原页/PDF_287_书页275.png",
+      "sha256": "57e766ac8f1585d194de952f73792df1d7e3bb127c6f42d8717d484d15c1f8ec"
+    },
+    {
+      "pdf_page": 288,
+      "book_page": 276,
+      "file": "真题/PDF原页/PDF_288_书页276.png",
+      "sha256": "ed8c6b77a8a4ebfdbafedc004c81cf0c95c0491fa2cc7579d988cc8dc928aa59"
+    },
+    {
+      "pdf_page": 289,
+      "book_page": 277,
+      "file": "真题/PDF原页/PDF_289_书页277.png",
+      "sha256": "71030109d293eea15ac506ac42cdbaf656a0667bbb1687adffef677dc744b95d"
+    },
+    {
+      "pdf_page": 290,
+      "book_page": 278,
+      "file": "真题/PDF原页/PDF_290_书页278.png",
+      "sha256": "0ed2be3da4e31a621267e8f68f8212a27047ba76fb05227ef5e07cf342fa1e58"
+    },
+    {
+      "pdf_page": 291,
+      "book_page": 279,
+      "file": "真题/PDF原页/PDF_291_书页279.png",
+      "sha256": "527627971e25f6ff0b2810d0884c3578dc78a8f023f29dfe85d9fc9f295850c2"
+    },
+    {
+      "pdf_page": 294,
+      "book_page": 282,
+      "file": "真题/PDF原页/PDF_294_书页282.png",
+      "sha256": "706f5d2cae7c24881b8f8dac2b0b2838750c800f3c06241e72b6075b3a879c88"
+    },
+    {
+      "pdf_page": 295,
+      "book_page": 283,
+      "file": "真题/PDF原页/PDF_295_书页283.png",
+      "sha256": "2958ff84439447becbd79bfec307e2ad4df7cba826e7df961f4d7aaf995e4e9a"
+    },
+    {
+      "pdf_page": 296,
+      "book_page": 284,
+      "file": "真题/PDF原页/PDF_296_书页284.png",
+      "sha256": "bd3d949d936552fdac66bf30ee1a740cd3f3554bfad7e0acaebb7557579111db"
+    },
+    {
+      "pdf_page": 297,
+      "book_page": 285,
+      "file": "真题/PDF原页/PDF_297_书页285.png",
+      "sha256": "f8425fb90ace2b9622e726ecd22f5486c9802fce35471f3758e2795c98d4a3b5"
+    },
+    {
+      "pdf_page": 302,
+      "book_page": 290,
+      "file": "真题/PDF原页/PDF_302_书页290.png",
+      "sha256": "433e4fdd61130341af00b0ce401e46ef1d479c263d4acb9fe09033dd56b8bcbc"
+    },
+    {
+      "pdf_page": 303,
+      "book_page": 291,
+      "file": "真题/PDF原页/PDF_303_书页291.png",
+      "sha256": "dd909eba9609bc764201ed5f82c925cee81cd26ba4e99d06f2c6e73035af5777"
+    },
+    {
+      "pdf_page": 304,
+      "book_page": 292,
+      "file": "真题/PDF原页/PDF_304_书页292.png",
+      "sha256": "64bc75afcc4e5fe5615eddddbf41291a35b85be4202711f0da9710a74306e494"
+    },
+    {
+      "pdf_page": 305,
+      "book_page": 293,
+      "file": "真题/PDF原页/PDF_305_书页293.png",
+      "sha256": "528b8fa231b4c0dcd26757aab8d96a52a0726da8fc6acca41c1069a226311243"
+    },
+    {
+      "pdf_page": 306,
+      "book_page": 294,
+      "file": "真题/PDF原页/PDF_306_书页294.png",
+      "sha256": "b39951732b892bdcf0d9f9122fc41e52fbf99738d146e97750d2830d26aad637"
+    },
+    {
+      "pdf_page": 307,
+      "book_page": 295,
+      "file": "真题/PDF原页/PDF_307_书页295.png",
+      "sha256": "65eaa1cf15183ac4ffedb95aa72714a7ec2ef714f656e00c7d1ab12587378901"
+    },
+    {
+      "pdf_page": 308,
+      "book_page": 296,
+      "file": "真题/PDF原页/PDF_308_书页296.png",
+      "sha256": "fcbc8780f7b0a42be31b046de4431f537374ce91c4e227d874b0cd2b261d5afc"
+    },
+    {
+      "pdf_page": 309,
+      "book_page": 297,
+      "file": "真题/PDF原页/PDF_309_书页297.png",
+      "sha256": "6b7428d6b09bdb9af392c951b478b1e029d1166879005cf0b039c90933ab2bac"
+    },
+    {
+      "pdf_page": 310,
+      "book_page": 298,
+      "file": "真题/PDF原页/PDF_310_书页298.png",
+      "sha256": "5ecea3526c135b82072ad36293a6bbd29eb2a9c5f8b42730e0e1b799da774c67"
+    },
+    {
+      "pdf_page": 311,
+      "book_page": 299,
+      "file": "真题/PDF原页/PDF_311_书页299.png",
+      "sha256": "4bda92cb9648b8c1cd25d48cc1b0d6e0409fd1bdbf697043b7530a513fdcbd31"
+    }
+  ]
+}
